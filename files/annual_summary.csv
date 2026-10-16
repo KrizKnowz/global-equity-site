@@ -1,0 +1,4 @@
+date,structure_date,structure_refreshed,pool,graph,clusters,long_names,short_names,new_stock_names,financial_sector_exclusions,incomplete_or_stale_financials
+2023-09-30,2023-09-30,True,2000,1338,16,70,20,90,327,119
+2024-09-30,2024-09-30,True,2000,1114,13,70,20,36,336,114
+2025-09-30,2025-09-30,True,2000,1394,18,70,20,16,356,118

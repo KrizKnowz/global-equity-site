@@ -1,0 +1,12 @@
+metric,value
+accounting_mode,synthetic_total_return_notional
+base_currency,USD
+execution,next_eligible_session_close
+borrow_day_count,ACT/365
+dividends,already_in_total_returns
+replacement_decisions,0
+borrow_rates.stock,0.03
+borrow_rates.etf,0.03
+initial_nav,1000000.0
+evaluation_first_date,2023-10-02 00:00:00
+initial_decision_date,2023-09-30 00:00:00

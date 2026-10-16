@@ -1,0 +1,14 @@
+{
+  "routes": [
+    {"route": "/data/*", "headers": {"Cache-Control": "no-cache"}},
+    {"route": "/files/*", "headers": {"Cache-Control": "no-cache"}},
+    {"route": "/*", "headers": {"Cache-Control": "no-cache"}}
+  ],
+  "globalHeaders": {
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
+    "Content-Security-Policy": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'"
+  },
+  "mimeTypes": {".csv": "text/csv; charset=utf-8", ".json": "application/json", ".svg": "image/svg+xml", ".zip": "application/zip"}
+}

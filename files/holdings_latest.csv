@@ -1,0 +1,91 @@
+date,security_id,signed_nav_weight,signed_notional_usd,absolute_notional_usd,side,symbol,name,issuer_id,region,country,sector,industry,currency,instrument_type
+2026-09-28,0083.HK,0.0349675091624289,56578.83251131224,56578.83251131224,long,0083.HK,Sino Land Company Limited,finmb_875493,Hong_Kong,Hong Kong,Real Estate,Real Estate - Development,HKD,stock
+2026-09-28,0358.HK,0.0113615351084536,18383.419562045194,18383.419562045194,long,0358.HK,Jiangxi Copper Company Limited,finmb_4492895,Hong_Kong,China,Basic Materials,Copper,HKD,stock
+2026-09-28,0883.HK,0.0271738410000152,43968.36478935793,43968.36478935793,long,0883.HK,CNOOC Limited,finmb_1038362,Hong_Kong,Hong Kong,Energy,Oil & Gas E&P,HKD,stock
+2026-09-28,1308.HK,0.0471888204883428,76353.40448226746,76353.40448226746,long,1308.HK,SITC International Holdings Company Limited,finmb_112697396,Hong_Kong,Hong Kong,Industrials,Marine Shipping,HKD,stock
+2026-09-28,1347.HK,0.0010399038029909,1682.6060679356633,1682.6060679356633,long,1347.HK,Hua Hong Grace Semiconductor Limited,finmb_23904081,Hong_Kong,China,Technology,Semiconductors,HKD,stock
+2026-09-28,1801.T,0.001106125717564,1789.755782140517,1789.755782140517,long,1801.T,Taisei Corporation,finmb_874554,Japan,Japan,Industrials,Engineering & Construction,JPY,stock
+2026-09-28,1803.T,0.0036376240962142,5885.8217073109,5885.8217073109,long,1803.T,Shimizu Corporation,finmb_875399,Japan,Japan,Industrials,Engineering & Construction,JPY,stock
+2026-09-28,1812.T,0.0024277560812326,3928.2067264306634,3928.2067264306634,long,1812.T,Kajima Corporation,finmb_874300,Japan,Japan,Industrials,Engineering & Construction,JPY,stock
+2026-09-28,2015.HK,-0.0381072145725938,-61659.00181108749,61659.00181108749,short,2015.HK,Li Auto Inc.,finmb_676755414,Hong_Kong,China,Consumer Cyclical,Auto Manufacturers,HKD,stock
+2026-09-28,2202.HK,-0.0361690657748902,-58522.99930951108,58522.99930951108,short,2202.HK,"China Vanke Co., Ltd.",finmb_5493345,Hong_Kong,China,Real Estate,Real Estate - Development,HKD,stock
+2026-09-28,2338.HK,0.0032357701189515,5235.605852131249,5235.605852131249,long,2338.HK,"Weichai Power Co., Ltd.",finmb_9283092,Hong_Kong,China,Consumer Cyclical,Auto Manufacturers,HKD,stock
+2026-09-28,2502.T,-0.0611253028917971,-98903.19205904777,98903.19205904777,short,2502.T,"Asahi Group Holdings, Ltd.",finmb_877335,Japan,Japan,Consumer Defensive,Beverages - Brewers,JPY,stock
+2026-09-28,285A.T,0.0010275023278762,1662.5399837273628,1662.5399837273628,long,285A.T,Kioxia Holdings Corporation,finmb_605626628,Japan,Japan,Technology,Semiconductors,JPY,stock
+2026-09-28,3993.HK,0.00120517625367,1950.0235228727765,1950.0235228727765,long,3993.HK,CMOC Group Limited,finmb_26688717,Hong_Kong,China,Basic Materials,Other Industrial Metals & Mining,HKD,stock
+2026-09-28,5802.T,0.0012418609242773,2009.3807914840966,2009.3807914840966,long,5802.T,"Sumitomo Electric Industries, Ltd.",finmb_799467,Japan,Japan,Consumer Cyclical,Auto Parts,JPY,stock
+2026-09-28,5803.T,0.0014132923513729,2286.763717324258,2286.763717324258,long,5803.T,Fujikura Ltd.,finmb_876033,Japan,Japan,Industrials,Conglomerates,JPY,stock
+2026-09-28,6869.HK,0.0067960822157985,10996.333643172831,10996.333643172831,long,6869.HK,Yangtze Optical Fibre And Cable Joint Stock Limited Company,finmb_5579380,Hong_Kong,China,Technology,Communication Equipment,HKD,stock
+2026-09-28,6971.T,0.0149471227332036,24185.044171136244,24185.044171136244,long,6971.T,Kyocera Corporation,finmb_21411,Japan,Japan,Industrials,Conglomerates,JPY,stock
+2026-09-28,6981.T,0.0013716890546195,2219.4479143028016,2219.4479143028016,long,6981.T,"Murata Manufacturing Co., Ltd.",finmb_874485,Japan,Japan,Technology,Electronic Components,JPY,stock
+2026-09-28,7936.T,0.0245590686742577,39737.55827731721,39737.55827731721,long,7936.T,ASICS Corporation,finmb_875663,Japan,Japan,Consumer Cyclical,Footwear & Accessories,JPY,stock
+2026-09-28,ACN,-0.0012619660880442,-2041.9117529573878,2041.9117529573878,short,ACN,Accenture plc,finmb_972190,US,Ireland,Technology,Information Technology Services,USD,stock
+2026-09-28,ACS.MC,0.0012385537369215,2004.0296296779136,2004.0296296779136,long,ACS.MC,"ACS, Actividades de Construcción y Servicios, S.A.",finmb_780678,Western_Europe,Spain,Industrials,Engineering & Construction,EUR,stock
+2026-09-28,ADBE,-0.0010910652081361,-1765.3872737489685,1765.3872737489685,short,ADBE,Adobe Inc.,finmb_24321,US,United States,Technology,Software - Application,USD,stock
+2026-09-28,ARE,-0.0524993777287208,-84946.09912486786,84946.09912486786,short,ARE,"Alexandria Real Estate Equities, Inc.",finmb_365138,US,United States,Real Estate,REIT - Office,USD,stock
+2026-09-28,ARGX,0.001182096043743,1912.6788173714551,1912.6788173714551,long,ARGX,argenx SE,finmb_62120637,US,Netherlands,Healthcare,Biotechnology,USD,stock
+2026-09-28,AUTO.L,-0.0265770362324776,-43002.710735258384,43002.710735258384,short,AUTO.L,Autotrader Group plc,finmb_706565,Western_Europe,United Kingdom,Communication Services,Internet Content & Information,GBP,stock
+2026-09-28,AVGO,0.0054513947454776,8820.575375406594,8820.575375406594,long,AVGO,Broadcom Inc.,finmb_25016048,US,United States,Technology,Semiconductors,USD,stock
+2026-09-28,BAYN.DE,0.0010156055408004,1643.2905050110564,1643.2905050110564,long,BAYN.DE,Bayer Aktiengesellschaft,finmb_103375,Western_Europe,Germany,Healthcare,Drug Manufacturers - General,EUR,stock
+2026-09-28,BOL.ST,0.0010287005848055,1664.4788115058434,1664.4788115058434,long,BOL.ST,Boliden AB (publ),finmb_5479455,Western_Europe,Sweden,Basic Materials,Other Industrial Metals & Mining,SEK,stock
+2026-09-28,BTI,0.0010228760665263,1655.0545072853981,1655.0545072853981,long,BTI,British American Tobacco p.l.c.,finmb_326614,US,United Kingdom,Consumer Defensive,Tobacco,USD,stock
+2026-09-28,CASY,0.0203760273278684,32969.22958035792,32969.22958035792,long,CASY,"Casey's General Stores, Inc.",finmb_258629,US,United States,Consumer Cyclical,Specialty Retail,USD,stock
+2026-09-28,CAT,0.0010544498503048,1706.142155989629,1706.142155989629,long,CAT,Caterpillar Inc.,finmb_259378,US,United States,Industrials,Farm & Heavy Construction Machinery,USD,stock
+2026-09-28,CCJ,0.0064969116436222,10512.263656464616,10512.263656464616,long,CCJ,Cameco Corporation,finmb_379153,US,Canada,Energy,Uranium,USD,stock
+2026-09-28,CIEN,0.0009857516016802,1594.9856339537957,1594.9856339537957,long,CIEN,Ciena Corporation,finmb_26486,US,United States,Technology,Communication Equipment,USD,stock
+2026-09-28,CLS,0.0010775607662502,1743.5365450604625,1743.5365450604625,long,CLS,Celestica Inc.,finmb_26238,US,Canada,Technology,Electronic Components,USD,stock
+2026-09-28,CMG,-0.0729263134666645,-117997.70055486735,117997.70055486735,short,CMG,"Chipotle Mexican Grill, Inc.",finmb_26446,US,United States,Consumer Cyclical,Restaurants,USD,stock
+2026-09-28,CMI,0.0009859802640877,1595.3556189016936,1595.3556189016936,long,CMI,Cummins Inc.,finmb_265253,US,United States,Industrials,Specialty Industrial Machinery,USD,stock
+2026-09-28,CNP,0.1027031130202755,166177.75669901076,166177.75669901076,long,CNP,"CenterPoint Energy, Inc.",finmb_279513,US,United States,Utilities,Utilities - Regulated Electric,USD,stock
+2026-09-28,COKE,0.0011650636456715,1885.1197140542301,1885.1197140542301,long,COKE,"Coca-Cola Consolidated, Inc.",finmb_526813,US,United States,Consumer Defensive,Beverages - Non-Alcoholic,USD,stock
+2026-09-28,CPRT,-0.0571220095763386,-92425.70288654622,92425.70288654622,short,CPRT,"Copart, Inc.",finmb_27023,US,United States,Industrials,Specialty Business Services,USD,stock
+2026-09-28,CRS,0.0014806770106856,2395.794799160122,2395.794799160122,long,CRS,Carpenter Technology Corporation,finmb_258937,US,United States,Industrials,Metal Fabrication,USD,stock
+2026-09-28,CSGP,-0.0037353695657427,-6043.97779796933,6043.97779796933,short,CSGP,"CoStar Group, Inc.",finmb_387127,US,United States,Real Estate,Real Estate Services,USD,stock
+2026-09-28,CW,0.0009860760245783,1595.51056321682,1595.51056321682,long,CW,Curtiss-Wright Corporation,finmb_265386,US,United States,Industrials,Aerospace & Defense,USD,stock
+2026-09-28,DTM,0.0596734170029104,96553.9824498852,96553.9824498852,long,DTM,"DT Midstream, Inc.",finmb_710475650,US,United States,Energy,Oil & Gas Midstream,USD,stock
+2026-09-28,ELE.MC,0.0009966924889665,1612.6884284657317,1612.6884284657317,long,ELE.MC,"Endesa, S.A.",finmb_324742,Western_Europe,Spain,Utilities,Utilities - Regulated Electric,EUR,stock
+2026-09-28,ENI.MI,0.0069121779841177,11184.181253378414,11184.181253378414,long,ENI.MI,Eni S.p.A.,finmb_358534,Western_Europe,Italy,Energy,Oil & Gas Integrated,EUR,stock
+2026-09-28,ETR,0.0067670931708719,10949.428205615177,10949.428205615177,long,ETR,Entergy Corporation,finmb_269764,US,United States,Utilities,Utilities - Regulated Electric,USD,stock
+2026-09-28,FCT.MI,-0.0099083286117217,-16032.073156414232,16032.073156414232,short,FCT.MI,Fincantieri S.p.A.,finmb_716830,Western_Europe,Italy,Industrials,Aerospace & Defense,EUR,stock
+2026-09-28,FIVE,0.0010239793833875,1656.8397182252675,1656.8397182252675,long,FIVE,"Five Below, Inc.",finmb_11464323,US,United States,Consumer Cyclical,Specialty Retail,USD,stock
+2026-09-28,FIX,0.0010890984417577,1762.20496685386,1762.20496685386,long,FIX,"Comfort Systems USA, Inc.",finmb_100935,US,United States,Industrials,Engineering & Construction,USD,stock
+2026-09-28,FLUT,-0.0322446584006308,-52173.150754299946,52173.150754299946,short,FLUT,Flutter Entertainment plc,finmb_1303244,US,United States,Consumer Cyclical,Gambling,USD,stock
+2026-09-28,GEV,0.0010525728379065,1703.1050746347128,1703.1050746347128,long,GEV,GE Vernova Inc.,finmb_1818848396,US,United States,Industrials,Specialty Industrial Machinery,USD,stock
+2026-09-28,GILD,0.0022855477953847,3698.1080153862345,3698.1080153862345,long,GILD,"Gilead Sciences, Inc.",finmb_29002,US,United States,Healthcare,Drug Manufacturers - General,USD,stock
+2026-09-28,GOOGL,0.0061451628182474,9943.119946957422,9943.119946957422,long,GOOGL,Alphabet Inc.,finmb_29096,US,United States,Communication Services,Internet Content & Information,USD,stock
+2026-09-28,HII,0.0009733349466053,1574.8949879609627,1574.8949879609627,long,HII,"Huntington Ingalls Industries, Inc.",finmb_363263,US,United States,Industrials,Aerospace & Defense,USD,stock
+2026-09-28,HOT.DE,0.0009914515415085,1604.208365243345,1604.208365243345,long,HOT.DE,HOCHTIEF Aktiengesellschaft,finmb_875295,Western_Europe,Germany,Industrials,Engineering & Construction,EUR,stock
+2026-09-28,HST,0.02579361845627,41735.1093473374,41735.1093473374,long,HST,"Host Hotels & Resorts, Inc.",finmb_29574,US,United States,Real Estate,REIT - Hotel & Motel,USD,stock
+2026-09-28,IAG.L,0.001,1618.040113995417,1618.040113995417,long,IAG.L,International Consolidated Airlines Group S.A.,finmb_131475881,Western_Europe,United Kingdom,Industrials,Airlines,GBP,stock
+2026-09-28,IG.MI,0.0009933048721913,1607.2071286326143,1607.2071286326143,long,IG.MI,Italgas S.p.A.,finmb_874299,Western_Europe,Italy,Utilities,Utilities - Regulated Gas,EUR,stock
+2026-09-28,IT,-0.0252417072453186,-40842.094868654254,40842.094868654254,short,IT,"Gartner, Inc.",finmb_130705,US,United States,Technology,Information Technology Services,USD,stock
+2026-09-28,JOBY,-0.0069441076114853,-11235.844671284118,11235.844671284118,short,JOBY,"Joby Aviation, Inc.",finmb_551384045,US,United States,Industrials,Airports & Air Services,USD,stock
+2026-09-28,LLYVK,0.0510840666244846,82656.06898443055,82656.06898443055,long,LLYVK,"Liberty Live Holdings, Inc.",finmb_1851034978,US,United States,Communication Services,Entertainment,USD,stock
+2026-09-28,MGA,0.0026345898417051,4262.872047803688,4262.872047803688,long,MGA,Magna International Inc.,finmb_285880,US,Canada,Consumer Cyclical,Auto Parts,USD,stock
+2026-09-28,MLI,0.0016823121946695,2722.048615238918,2722.048615238918,long,MLI,"Mueller Industries, Inc.",finmb_316367,US,United States,Industrials,Metal Fabrication,USD,stock
+2026-09-28,MNST,0.1037617207525235,167890.62647477374,167890.62647477374,long,MNST,Monster Beverage Corporation,finmb_343729,US,United States,Consumer Defensive,Beverages - Non-Alcoholic,USD,stock
+2026-09-28,MU,0.0010456509681979,1691.9052117823485,1691.9052117823485,long,MU,"Micron Technology, Inc.",finmb_289030,US,United States,Technology,Semiconductors,USD,stock
+2026-09-28,NHY.OL,0.0010811191600572,1749.2941689815816,1749.2941689815816,long,NHY.OL,Norsk Hydro ASA,finmb_292387,Western_Europe,Norway,Basic Materials,Aluminum,NOK,stock
+2026-09-28,NTRA,0.0639398177718197,103457.19003636134,103457.19003636134,long,NTRA,"Natera, Inc.",finmb_27603970,US,United States,Healthcare,Diagnostics & Research,USD,stock
+2026-09-28,PRY.MI,0.0023987757741801,3881.315427103814,3881.315427103814,long,PRY.MI,Prysmian S.p.A.,finmb_520105,Western_Europe,Italy,Industrials,Electrical Equipment & Parts,EUR,stock
+2026-09-28,PST.MI,0.0096046716933219,15540.744081551122,15540.744081551122,long,PST.MI,Poste Italiane S.p.A.,finmb_8228183,Western_Europe,Italy,Industrials,Integrated Freight & Logistics,EUR,stock
+2026-09-28,REL.L,-0.00099180786009,-1604.7849030015743,1604.7849030015743,short,REL.L,RELX PLC,finmb_380521,Western_Europe,United Kingdom,Industrials,Specialty Business Services,GBP,stock
+2026-09-28,RMV.L,-0.0156561648810108,-25332.302808801756,25332.302808801756,short,RMV.L,Rightmove plc,finmb_22757600,Western_Europe,United Kingdom,Communication Services,Internet Content & Information,GBP,stock
+2026-09-28,ROIV,0.0011238178513385,1818.382364289831,1818.382364289831,long,ROIV,Roivant Sciences Ltd.,finmb_282015801,US,United Kingdom,Healthcare,Biotechnology,USD,stock
+2026-09-28,ROST,0.0436335855239342,70600.89169517526,70600.89169517526,long,ROST,"Ross Stores, Inc.",finmb_33926,US,United States,Consumer Cyclical,Apparel Retail,USD,stock
+2026-09-28,RR.L,0.0009963985674165,1612.2128516074638,1612.2128516074638,long,RR.L,Rolls-Royce Holdings plc,finmb_408374,Western_Europe,United Kingdom,Industrials,Aerospace & Defense,GBP,stock
+2026-09-28,SDZ.SW,0.0014608465251204,2363.708278035621,2363.708278035621,long,SDZ.SW,Sandoz Group AG,finmb_1842922977,Western_Europe,Switzerland,Healthcare,Drug Manufacturers - Specialty & Generic,CHF,stock
+2026-09-28,SMSN.IL,0.001,1618.040113995417,1618.040113995417,long,SMSN.IL,"Samsung Electronics Co., Ltd.",finmb_91868,Western_Europe,South Korea,Technology,Consumer Electronics,USD,stock
+2026-09-28,SPSN.SW,0.1064570075174846,172251.70857920175,172251.70857920175,long,SPSN.SW,Swiss Prime Site AG,finmb_2444407,Western_Europe,Switzerland,Real Estate,Real Estate - Diversified,CHF,stock
+2026-09-28,TELIA.ST,0.0009945401174965,1609.2058050870523,1609.2058050870523,long,TELIA.ST,Telia Company AB (publ),finmb_4058367,Western_Europe,Sweden,Communication Services,Telecom Services,SEK,stock
+2026-09-28,TGT,0.012874979792975,20832.233771913958,20832.233771913958,long,TGT,Target Corporation,finmb_174438,US,United States,Consumer Defensive,Discount Stores,USD,stock
+2026-09-28,TIGO,0.0059265571554827,9589.407215457582,9589.407215457582,long,TIGO,Millicom International Cellular S.A.,finmb_31654,US,Luxembourg,Communication Services,Telecom Services,USD,stock
+2026-09-28,TPR,0.0016687371980409,2700.083726146491,2700.083726146491,long,TPR,"Tapestry, Inc.",finmb_526573,US,United States,Consumer Cyclical,Luxury Goods,USD,stock
+2026-09-28,TRI,-0.0010075884314069,-1630.318500414084,1630.318500414084,short,TRI,Thomson Reuters Corporation,finmb_515275,US,Canada,Industrials,Specialty Business Services,USD,stock
+2026-09-28,TU,-0.0524584880283217,-84879.93794937286,84879.93794937286,short,TU,TELUS Corporation,finmb_598689,US,Canada,Communication Services,Telecom Services,USD,stock
+2026-09-28,VRSK,-0.0011207057474689,-1813.3468553898979,1813.3468553898979,short,VRSK,"Verisk Analytics, Inc.",finmb_1027055,US,United States,Industrials,Consulting Services,USD,stock
+2026-09-28,WBD,0.1108277676148469,179323.77374538447,179323.77374538447,long,WBD,"Warner Bros. Discovery, Inc.",finmb_22666093,US,United States,Communication Services,Entertainment,USD,stock
+2026-09-28,WCC,0.0010439998820528,1689.2336881679146,1689.2336881679146,long,WCC,"WESCO International, Inc.",finmb_398674,US,United States,Industrials,Industrial Distribution,USD,stock
+2026-09-28,WDC,0.000991892477962,1604.921818112831,1604.921818112831,long,WDC,Western Digital Corporation,finmb_314057,US,United States,Technology,Computer Hardware,USD,stock
+2026-09-28,WELL,0.022129347650079,35806.17219437804,35806.17219437804,long,WELL,Welltower Inc.,finmb_277914,US,United States,Real Estate,REIT - Healthcare Facilities,USD,stock
+2026-09-28,WKL.AS,-0.0009925260359799,-1605.9469404003366,1605.9469404003366,short,WKL.AS,Wolters Kluwer N.V.,finmb_428487,Western_Europe,Netherlands,Industrials,Specialty Business Services,EUR,stock

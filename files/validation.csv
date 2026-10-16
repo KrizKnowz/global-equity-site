@@ -1,0 +1,76 @@
+metric,value
+passed,True
+valuation_sessions,778
+first_fill,2023-10-02
+last_valuation,2026-09-28
+annual_snapshots,3
+allocation_snapshots,778
+decisions,778
+decision_counts.daily_allocation,774
+decision_counts.annual_rebalance,2
+decision_counts.initial_allocation,1
+decision_counts.daily_no_trade,1
+checks[0],"Configured long budget, variable short bounds and single-name shorts only, with no ETF targets or trades at model targets"
+checks[1],Separate long/short issuer and sector caps applied to single-name books
+checks[2],Monthly allocations reuse annual cluster labels; legacy drift reviews retain names/sides
+checks[3],Annual financial timing and monthly factor estimation cutoffs
+checks[4],Configured decision and snapshot schedule
+checks[5],All fills strictly after signal cutoff
+checks[6],Per-side transaction fees and gross/net identity
+checks[7],All regional FF6 exposures independently reconstructed; only constrained factors checked against declared tolerances
+checks[8],Fixed selected names replay exactly from alpha/price-momentum ranks and return-sign retention
+checks[9],Execution availability checked using dated observations; blocked holdings kept at their actual decision weights
+checks[10],Unfilled end orders and blocked positions disclosed without assuming fills
+checks[11],Daily rolling reviews reuse annual structure and exclude the final valuation
+checks[12],Daily no-trade decisions replay the materiality and current-risk thresholds and generate no orders
+daily_drift_maxima.short_stock_fraction_of_short_book,1.0
+daily_drift_maxima.net_dollar_nav_weight,0.5186202975053402
+daily_drift_maxima.maximum_long_issuer_book_fraction,0.17110133562645602
+daily_drift_maxima.maximum_short_issuer_book_fraction,0.16548845140829524
+daily_drift_maxima.maximum_long_sector_book_fraction,0.40337360550935397
+daily_drift_maxima.maximum_short_sector_book_fraction,0.43689185830529176
+daily_drift_maxima.maximum_absolute_country_residual,0.40949449566581775
+daily_drift_maxima.region_net_US,0.3673685379460063
+daily_drift_maxima.region_net_Western_Europe,0.392499458590778
+daily_drift_maxima.region_net_Japan,0.12065189441339949
+daily_drift_maxima.region_net_Hong_Kong,0.1503278901192259
+annual_summary[0].date,2023-09-30
+annual_summary[0].structure_date,2023-09-30
+annual_summary[0].structure_refreshed,True
+annual_summary[0].pool,2000
+annual_summary[0].graph,1338
+annual_summary[0].clusters,16
+annual_summary[0].long_names,70
+annual_summary[0].short_names,20
+annual_summary[0].new_stock_names,90
+annual_summary[0].financial_sector_exclusions,327
+annual_summary[0].incomplete_or_stale_financials,119
+annual_summary[1].date,2024-09-30
+annual_summary[1].structure_date,2024-09-30
+annual_summary[1].structure_refreshed,True
+annual_summary[1].pool,2000
+annual_summary[1].graph,1114
+annual_summary[1].clusters,13
+annual_summary[1].long_names,70
+annual_summary[1].short_names,20
+annual_summary[1].new_stock_names,36
+annual_summary[1].financial_sector_exclusions,336
+annual_summary[1].incomplete_or_stale_financials,114
+annual_summary[2].date,2025-09-30
+annual_summary[2].structure_date,2025-09-30
+annual_summary[2].structure_refreshed,True
+annual_summary[2].pool,2000
+annual_summary[2].graph,1394
+annual_summary[2].clusters,18
+annual_summary[2].long_names,70
+annual_summary[2].short_names,20
+annual_summary[2].new_stock_names,16
+annual_summary[2].financial_sector_exclusions,356
+annual_summary[2].incomplete_or_stale_financials,118
+momentum_mode,unrestricted
+constrained_factor_exposures_per_target,20
+factor_neutrality_scope,Allocation targets; realized positions can drift and fill asynchronously
+maximum_absolute_target_factor_exposure,0.4396423485141303
+execution_complete,True
+execution_replacements,0
+daily_no_trade_reviews,1

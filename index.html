@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Global equity research: a reproducible factor-neutral portfolio backtest, performance, portfolio records and methodology.">
+  <meta name="color-scheme" content="light">
+  <title>Global Equity Research</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="app.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <aside class="sidebar">
+    <a class="brand" href="#overview"><img src="favicon.svg" alt="" width="37" height="37"><span>GLOBAL EQUITY<small>RESEARCH JOURNAL</small></span></a>
+    <div class="nav-caption">BACKTEST EXPLORER</div>
+    <nav aria-label="Main navigation">
+      <a href="#overview" data-view="overview"><span class="nav-icon">◫</span>Overview</a>
+      <a href="#performance" data-view="performance"><span class="nav-icon">↗</span>Monthly performance</a>
+      <a href="#holdings" data-view="holdings"><span class="nav-icon">▤</span>Holdings</a>
+      <a href="#trades" data-view="trades"><span class="nav-icon">⇄</span>Trades</a>
+      <a href="#risk" data-view="risk"><span class="nav-icon">◇</span>Risk & methodology</a>
+      <a href="#files" data-view="files"><span class="nav-icon">↓</span>Files & downloads</a>
+    </nav>
+    <div class="sidebar-foot"><span class="live-dot"></span> Saved research snapshot<p>Single-name long / short<br>USD · Four regional markets</p><a href="files/backtest_report.html" target="_blank" rel="noopener">Open printable report ↗</a></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><span>PORTFOLIO RESEARCH <span class="separator">/</span> <span id="breadcrumb">Overview</span></span><span id="asof" class="asof">Loading snapshot…</span></header>
+    <main id="main" tabindex="-1"><div class="loading">Loading the backtest records…</div></main>
+    <footer><span>Historical simulation · Returns in USD · Not live account performance</span><a href="#risk">Methodology & assumptions ↗</a></footer>
+  </div>
+  <div id="chart-tooltip" class="chart-tooltip" role="status" hidden></div>
+</body>
+</html>
