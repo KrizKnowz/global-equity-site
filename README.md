@@ -1,6 +1,6 @@
 # Portfolio backtest website
 
-Saved research snapshot: `20261016T005025953083Z_factor_neutral`.
+Saved research snapshot: `20261018T022603497994Z_standard_202310_202610`.
 
 This repository contains the generated presentation and downloadable backtest records. It includes NAV, monthly returns and drawdowns, holdings, trades, risk details, methodology, CSV exports and an HTML report.
 

@@ -1,331 +1,335 @@
 security_id,long_pnl_usd,short_pnl_usd,name,region,instrument_type
-0006.HK,1502.808636102423,0.0,Power Assets Holdings Limited,Hong_Kong,stock
-0020.HK,0.0,-6080.748726461658,SenseTime Group Inc.,Hong_Kong,stock
-0083.HK,-221.7933040391182,0.0,Sino Land Company Limited,Hong_Kong,stock
-0285.HK,1751.4055240172718,0.0,BYD Electronic (International) Company Limited,Hong_Kong,stock
-0288.HK,-8545.103347217097,0.0,WH Group Limited,Hong_Kong,stock
-0358.HK,-1748.5911284412607,0.0,Jiangxi Copper Company Limited,Hong_Kong,stock
-0386.HK,0.0,-349.2642822974267,China Petroleum & Chemical Corporation,Hong_Kong,stock
-0728.HK,58.56259751591368,0.0,China Telecom Corporation Limited,Hong_Kong,stock
-0762.HK,-264.2734254648965,0.0,China Unicom (Hong Kong) Limited,Hong_Kong,stock
-0836.HK,-213.39383505722702,0.0,China Resources Power Holdings Company Limited,Hong_Kong,stock
-0857.HK,371.3956061186866,0.0,PetroChina Company Limited,Hong_Kong,stock
-0883.HK,-1907.032768349513,0.0,CNOOC Limited,Hong_Kong,stock
-0941.HK,9233.308215818046,0.0,China Mobile Limited,Hong_Kong,stock
-0F08.IL,3705.6532864971123,0.0,Kongsberg Gruppen ASA,Western_Europe,stock
-0FWY.IL,-3365.644364748282,0.0,SalMar ASA,Western_Europe,stock
-0IIH.IL,0.0,428.1675428189674,Kering SA,Western_Europe,stock
-0NZT.IL,-440.814204012182,0.0,UCB SA,Western_Europe,stock
-0QE6.IL,15816.474274688851,0.0,Tele2 AB (publ),Western_Europe,stock
-0QKY.IL,-6486.3754921453,0.0,Holcim AG,Western_Europe,stock
-0QOK.IL,0.0,5656.525679050136,Roche Holding AG,Western_Europe,stock
-0QPS.IL,-14553.117997716723,0.0,Givaudan SA,Western_Europe,stock
-0QWI.IL,1041.2267297929598,0.0,"Industria de Diseño Textil, S.A.",Western_Europe,stock
-0R2N.IL,386.1536554909238,0.0,RTX Corporation,Western_Europe,stock
-0RFL.IL,5014.486824362336,0.0,VAT Group AG,Western_Europe,stock
-0RH0.IL,0.0,12176.326615958045,NIBE Industrier AB (publ),Western_Europe,stock
-1038.HK,2600.878885559625,0.0,CK Infrastructure Holdings Limited,Hong_Kong,stock
-1177.HK,-1232.7486030949826,0.0,Sino Biopharmaceutical Limited,Hong_Kong,stock
-1193.HK,0.0,336.5380931653664,China Resources Gas Group Limited,Hong_Kong,stock
-1211.HK,622.5302481209227,0.0,BYD Company Limited,Hong_Kong,stock
-1308.HK,11119.644254580127,0.0,SITC International Holdings Company Limited,Hong_Kong,stock
-1347.HK,-320.4839086817816,0.0,Hua Hong Grace Semiconductor Limited,Hong_Kong,stock
-1519.HK,0.0,-22575.24812960948,J&T Global Express Limited,Hong_Kong,stock
-1801.T,-3385.2267133703212,0.0,Taisei Corporation,Japan,stock
-1803.T,13289.059291895705,0.0,Shimizu Corporation,Japan,stock
-1810.HK,-622.5817164311133,0.0,Xiaomi Corporation,Hong_Kong,stock
-1812.T,5154.537236911668,0.0,Kajima Corporation,Japan,stock
-1816.HK,-283.2312303699545,0.0,"CGN Power Co., Ltd.",Hong_Kong,stock
-1876.HK,0.0,-1520.2047925790482,Budweiser Brewing Company APAC Limited,Hong_Kong,stock
-1880.HK,0.0,8707.635320433306,China Tourism Group Duty Free Corporation Limited,Hong_Kong,stock
-1919.HK,165.53635500586205,0.0,"COSCO SHIPPING Holdings Co., Ltd.",Hong_Kong,stock
-1929.HK,0.0,-7248.653683062985,Chow Tai Fook Jewellery Group Limited,Hong_Kong,stock
-2015.HK,0.0,15775.901080159529,Li Auto Inc.,Hong_Kong,stock
-2202.HK,0.0,-3519.2479757601773,"China Vanke Co., Ltd.",Hong_Kong,stock
-2331.HK,0.0,-3131.8991059258233,Li Ning Company Limited,Hong_Kong,stock
-2338.HK,-967.7240556612965,0.0,"Weichai Power Co., Ltd.",Hong_Kong,stock
-2413.T,0.0,-2173.7753572700817,"M3, Inc.",Japan,stock
-2502.T,0.0,-4717.085789070848,"Asahi Group Holdings, Ltd.",Japan,stock
-2587.T,0.0,-3254.236599124706,Suntory Beverage & Food Limited,Japan,stock
-285A.T,-43.31960258066505,0.0,Kioxia Holdings Corporation,Japan,stock
-3092.T,-739.0501872695206,0.0,"ZOZO, Inc.",Japan,stock
-3382.T,0.0,286.6483593190238,"Seven & i Holdings Co., Ltd.",Japan,stock
-3402.T,0.0,-8142.353960709111,"Toray Industries, Inc.",Japan,stock
-3690.HK,-2992.44662992534,0.0,Meituan,Hong_Kong,stock
-3692.HK,4606.7365468820535,0.0,Hansoh Pharmaceutical Group Company Limited,Hong_Kong,stock
-3808.HK,2889.8230644456953,0.0,Sinotruk (Hong Kong) Limited,Hong_Kong,stock
-3993.HK,-1290.0153550626865,0.0,CMOC Group Limited,Hong_Kong,stock
-4062.T,-2659.6084709663437,0.0,"Ibiden Co.,Ltd.",Japan,stock
-4063.T,-611.839689093842,0.0,"Shin-Etsu Chemical Co., Ltd.",Japan,stock
-4528.T,0.0,1473.2878958854744,"Ono Pharmaceutical Co., Ltd.",Japan,stock
-4689.T,-4467.05142497711,0.0,LY Corporation,Japan,stock
-4911.T,0.0,23832.19462463076,"Shiseido Company, Limited",Japan,stock
-5406.T,159.26174549836406,0.0,"Kobe Steel, Ltd.",Japan,stock
-5802.T,252.34532750289046,0.0,"Sumitomo Electric Industries, Ltd.",Japan,stock
-5803.T,4837.90501664776,0.0,Fujikura Ltd.,Japan,stock
-6098.T,494.7137983731627,0.0,"Recruit Holdings Co., Ltd.",Japan,stock
-6198.HK,-187.46168774998233,0.0,"Qingdao Port International Co., Ltd.",Hong_Kong,stock
-6479.T,0.0,-4402.644450333868,MINEBEA MITSUMI Inc.,Japan,stock
-6501.T,4563.726487180655,0.0,"Hitachi, Ltd.",Japan,stock
-6645.T,0.0,-26.56534793914703,OMRON Corporation,Japan,stock
-6701.T,27797.558985511085,0.0,NEC Corporation,Japan,stock
-6723.T,457.2361003102921,0.0,Renesas Electronics Corporation,Japan,stock
-6762.T,-500.0895666894204,0.0,TDK Corporation,Japan,stock
-6823.HK,37615.44306038282,0.0,HKT Trust and HKT Limited,Hong_Kong,stock
-6869.HK,2212.7571413697956,0.0,Yangtze Optical Fibre And Cable Joint Stock Limited Company,Hong_Kong,stock
-6869.T,0.0,-256.30121779616263,Sysmex Corporation,Japan,stock
-6965.T,0.0,-1070.1495401074258,Hamamatsu Photonics K.K.,Japan,stock
-6971.T,801.5032449696849,0.0,Kyocera Corporation,Japan,stock
-6981.T,-155.99951112196908,0.0,"Murata Manufacturing Co., Ltd.",Japan,stock
-7011.T,13516.84036554227,0.0,"Mitsubishi Heavy Industries, Ltd.",Japan,stock
-7201.T,0.0,15.328143637301793,"Nissan Motor Co., Ltd.",Japan,stock
-7267.T,258.89720766221103,0.0,"Honda Motor Co., Ltd.",Japan,stock
-7453.T,184.05519590792926,0.0,"Ryohin Keikaku Co., Ltd.",Japan,stock
-7733.T,0.0,-10614.204276558983,Olympus Corporation,Japan,stock
-7936.T,-4494.060661614275,0.0,ASICS Corporation,Japan,stock
-8015.T,-18.917024896780816,0.0,Toyota Tsusho Corporation,Japan,stock
-8058.T,247.89481027936904,0.0,Mitsubishi Corporation,Japan,stock
-8113.T,0.0,1579.089633486445,Unicharm Corporation,Japan,stock
-8802.T,0.0,-190.84955959952094,"Mitsubishi Estate Co., Ltd.",Japan,stock
-9001.T,0.0,-1065.530022320687,"Tobu Railway Co., Ltd.",Japan,stock
-9009.T,-4197.7712904997725,0.0,"Keisei Electric Railway Co., Ltd.",Japan,stock
-9024.T,8748.400588083354,0.0,Seibu Holdings Inc.,Japan,stock
-9041.T,0.0,-171.7149345137671,"Kintetsu Group Holdings Co.,Ltd.",Japan,stock
-9201.T,0.0,5894.833937889285,"Japan Airlines Co., Ltd.",Japan,stock
-9435.T,-4845.44248760023,0.0,"Hikari Tsushin, Inc.",Japan,stock
-9501.T,0.0,-20258.73167789583,"Tokyo Electric Power Company Holdings, Incorporated",Japan,stock
-9602.T,-1480.8664698149555,0.0,"Toho Co., Ltd.",Japan,stock
-9697.T,183.36767699563026,0.0,"Capcom Co., Ltd.",Japan,stock
-9766.T,324.60205872617485,0.0,Konami Group Corporation,Japan,stock
-9992.HK,2056.380781691006,0.0,Pop Mart International Group Limited,Hong_Kong,stock
-9995.HK,-1749.2660585463059,0.0,"RemeGen Co., Ltd.",Hong_Kong,stock
-A2A.MI,3160.503052942286,0.0,A2A S.p.A.,Western_Europe,stock
-ABF.L,-2492.3681340710864,0.0,Associated British Foods plc,Western_Europe,stock
-ACLS,-194.7989810934726,0.0,"Axcelis Technologies, Inc.",US,stock
-ACN,0.0,11402.49334057677,Accenture plc,US,stock
-ACS.MC,-554.8925480032977,0.0,"ACS, Actividades de Construcción y Servicios, S.A.",Western_Europe,stock
-ADBE,0.0,22303.240104484845,Adobe Inc.,US,stock
-ADT,0.0,-1481.7695347601805,ADT Inc.,US,stock
-AGCO,0.0,-614.637478244221,AGCO Corporation,US,stock
-ALSN,7917.154708899097,0.0,"Allison Transmission Holdings, Inc.",US,stock
-AMCR,0.0,-18109.740459468485,Amcor plc,US,stock
-AMP.MI,0.0,19334.30595054638,Amplifon S.p.A.,Western_Europe,stock
-APA,0.0,-1817.597541392909,APA Corporation,US,stock
-ARCAD.AS,0.0,-3380.1360307196105,Arcadis NV,Western_Europe,stock
-ARE,0.0,1218.172726689645,"Alexandria Real Estate Equities, Inc.",US,stock
-ARGX,959.9236444517755,0.0,argenx SE,US,stock
-AUTO.L,0.0,4034.6168149894893,Autotrader Group plc,Western_Europe,stock
-AVGO,12172.897050460584,0.0,Broadcom Inc.,US,stock
-BALD-B.ST,1048.7958957443543,0.0,Fastighets AB Balder (publ),Western_Europe,stock
-BAYN.DE,538.2417303380862,-28993.335563366134,Bayer Aktiengesellschaft,Western_Europe,stock
-BC94.L,0.0,-3531.833972959684,"Samsung Electronics Co., Ltd.",Western_Europe,stock
-BCE,0.0,2469.1454176228863,BCE Inc.,US,stock
-BESI.AS,2438.578923039722,0.0,BE Semiconductor Industries N.V.,Western_Europe,stock
-BIIB,0.0,-16466.509305078183,Biogen Inc.,US,stock
-BKNG,560.7047801878775,0.0,Booking Holdings Inc.,US,stock
-BKR,-148.1236720873444,0.0,Baker Hughes Company,US,stock
-BLDR,283.7706381720481,0.0,"Builders FirstSource, Inc.",US,stock
-BOL.ST,193.5082823399266,0.0,Boliden AB (publ),Western_Europe,stock
-BRBR,2949.2723198490207,0.0,"BellRing Brands, Inc.",US,stock
-BRBY.L,0.0,31070.78463048994,Burberry Group plc,Western_Europe,stock
-BSX,17316.57709285529,0.0,Boston Scientific Corporation,US,stock
-BTI,24325.140035946082,0.0,British American Tobacco p.l.c.,US,stock
-BZU.MI,11566.574475720943,0.0,Buzzi S.p.A.,Western_Europe,stock
-CASY,-1535.0497944777028,0.0,"Casey's General Stores, Inc.",US,stock
-CAT,26532.484919440405,0.0,Caterpillar Inc.,US,stock
-CAVA,-557.7408088004381,0.0,"CAVA Group, Inc.",US,stock
-CCEP,41642.337078381745,0.0,Coca-Cola Europacific Partners PLC,US,stock
-CCI,0.0,-18078.802363841205,Crown Castle Inc.,US,stock
-CCJ,215.42532246131663,0.0,Cameco Corporation,US,stock
-CHTR,0.0,-1274.014668306519,"Charter Communications, Inc.",US,stock
-CIEN,-841.6711637081651,0.0,Ciena Corporation,US,stock
-CLS,-536.5812202854511,0.0,Celestica Inc.,US,stock
-CMCSA,0.0,-4911.762654544214,Comcast Corporation,US,stock
-CMG,0.0,11194.77045291803,"Chipotle Mexican Grill, Inc.",US,stock
-CMI,-481.38434962719685,0.0,Cummins Inc.,US,stock
-CNA.L,-1403.2446684819088,-8381.973538428858,Centrica plc,Western_Europe,stock
-CNM,-666.6605732575789,0.0,"Core & Main, Inc.",US,stock
-CNP,-17420.041645999452,0.0,"CenterPoint Energy, Inc.",US,stock
-CNXC,0.0,8393.663994836837,Concentrix Corporation,US,stock
-COKE,227.2398338424995,0.0,"Coca-Cola Consolidated, Inc.",US,stock
-COLD,0.0,16518.623764239055,"Americold Realty Trust, Inc.",US,stock
-COST,653.3708923182037,0.0,Costco Wholesale Corporation,US,stock
-COTY,0.0,3322.292928191191,Coty Inc.,US,stock
-CPR.MI,0.0,-3169.756790717631,Davide Campari-Milano N.V.,Western_Europe,stock
-CPRT,0.0,28442.360959191636,"Copart, Inc.",US,stock
-CRH,676.5050623363004,0.0,CRH plc,US,stock
-CRS,1764.3383550040912,0.0,Carpenter Technology Corporation,US,stock
+0006.HK,1502.8086361024375,0.0,Power Assets Holdings Limited,Hong_Kong,stock
+0020.HK,0.0,-6080.748726461713,SenseTime Group Inc.,Hong_Kong,stock
+0083.HK,4757.05561844796,0.0,Sino Land Company Limited,Hong_Kong,stock
+0285.HK,1751.4055240172702,0.0,BYD Electronic (International) Company Limited,Hong_Kong,stock
+0288.HK,-8545.103347217075,0.0,WH Group Limited,Hong_Kong,stock
+0358.HK,-1063.77089242562,0.0,Jiangxi Copper Company Limited,Hong_Kong,stock
+0386.HK,0.0,-349.2642822974278,China Petroleum & Chemical Corporation,Hong_Kong,stock
+0728.HK,58.56259751591079,0.0,China Telecom Corporation Limited,Hong_Kong,stock
+0762.HK,-264.2734254648984,0.0,China Unicom (Hong Kong) Limited,Hong_Kong,stock
+0836.HK,-213.3938350572364,0.0,China Resources Power Holdings Company Limited,Hong_Kong,stock
+0857.HK,371.39560611869405,0.0,PetroChina Company Limited,Hong_Kong,stock
+0883.HK,-1436.0379023194132,0.0,CNOOC Limited,Hong_Kong,stock
+0941.HK,9233.308215818055,0.0,China Mobile Limited,Hong_Kong,stock
+0F08.IL,3705.6532864971605,0.0,Kongsberg Gruppen ASA,Western_Europe,stock
+0FWY.IL,-3365.6443647482943,0.0,SalMar ASA,Western_Europe,stock
+0IIH.IL,0.0,428.16754281893554,Kering SA,Western_Europe,stock
+0NZT.IL,-440.814204012136,0.0,UCB SA,Western_Europe,stock
+0QE6.IL,15816.47427468888,0.0,Tele2 AB (publ),Western_Europe,stock
+0QKY.IL,-6486.375492145322,0.0,Holcim AG,Western_Europe,stock
+0QOK.IL,0.0,5656.525679050138,Roche Holding AG,Western_Europe,stock
+0QPS.IL,-14553.117997716741,0.0,Givaudan SA,Western_Europe,stock
+0QWI.IL,1041.2267297929543,0.0,"Industria de Diseño Textil, S.A.",Western_Europe,stock
+0R2N.IL,386.15365549093076,0.0,RTX Corporation,Western_Europe,stock
+0RFL.IL,5014.486824362355,0.0,VAT Group AG,Western_Europe,stock
+0RH0.IL,0.0,12176.326615958038,NIBE Industrier AB (publ),Western_Europe,stock
+1038.HK,2600.878885559638,0.0,CK Infrastructure Holdings Limited,Hong_Kong,stock
+1177.HK,-1232.7486030950176,0.0,Sino Biopharmaceutical Limited,Hong_Kong,stock
+1193.HK,0.0,336.5380931653682,China Resources Gas Group Limited,Hong_Kong,stock
+1211.HK,622.530248120916,0.0,BYD Company Limited,Hong_Kong,stock
+1308.HK,14699.262446585655,0.0,SITC International Holdings Company Limited,Hong_Kong,stock
+1347.HK,-8853.215472704647,0.0,Hua Hong Grace Semiconductor Limited,Hong_Kong,stock
+1519.HK,0.0,-22575.248129609517,J&T Global Express Limited,Hong_Kong,stock
+1801.T,-3524.8945599187036,0.0,Taisei Corporation,Japan,stock
+1803.T,12850.22524796446,0.0,Shimizu Corporation,Japan,stock
+1810.HK,-622.5817164311212,0.0,Xiaomi Corporation,Hong_Kong,stock
+1812.T,5056.130620755678,0.0,Kajima Corporation,Japan,stock
+1816.HK,-283.23123036996856,0.0,"CGN Power Co., Ltd.",Hong_Kong,stock
+1876.HK,0.0,-1520.2047925790494,Budweiser Brewing Company APAC Limited,Hong_Kong,stock
+1880.HK,0.0,8707.635320433266,China Tourism Group Duty Free Corporation Limited,Hong_Kong,stock
+1919.HK,165.53635500586577,0.0,"COSCO SHIPPING Holdings Co., Ltd.",Hong_Kong,stock
+1929.HK,0.0,-7248.653683063016,Chow Tai Fook Jewellery Group Limited,Hong_Kong,stock
+2015.HK,0.0,16257.045902341433,Li Auto Inc.,Hong_Kong,stock
+2202.HK,0.0,380.467402838809,"China Vanke Co., Ltd.",Hong_Kong,stock
+2331.HK,0.0,-3131.8991059258374,Li Ning Company Limited,Hong_Kong,stock
+2338.HK,-1407.492776033822,0.0,"Weichai Power Co., Ltd.",Hong_Kong,stock
+2413.T,0.0,-2173.7753572700976,"M3, Inc.",Japan,stock
+2502.T,0.0,-7521.659294060656,"Asahi Group Holdings, Ltd.",Japan,stock
+2587.T,0.0,-3254.2365991247125,Suntory Beverage & Food Limited,Japan,stock
+285A.T,-476.49893841285655,0.0,Kioxia Holdings Corporation,Japan,stock
+3092.T,-739.0501872695113,0.0,"ZOZO, Inc.",Japan,stock
+3382.T,0.0,286.6483593190246,"Seven & i Holdings Co., Ltd.",Japan,stock
+3402.T,0.0,-8142.353960709116,"Toray Industries, Inc.",Japan,stock
+3690.HK,-2992.4466299253427,0.0,Meituan,Hong_Kong,stock
+3692.HK,4606.736546882118,0.0,Hansoh Pharmaceutical Group Company Limited,Hong_Kong,stock
+3808.HK,2889.823064445715,0.0,Sinotruk (Hong Kong) Limited,Hong_Kong,stock
+3993.HK,-1199.139078093131,0.0,CMOC Group Limited,Hong_Kong,stock
+4062.T,-2659.6084709663683,0.0,"Ibiden Co.,Ltd.",Japan,stock
+4063.T,-611.8396890938484,0.0,"Shin-Etsu Chemical Co., Ltd.",Japan,stock
+4528.T,0.0,1473.2878958855097,"Ono Pharmaceutical Co., Ltd.",Japan,stock
+4689.T,-4467.051424977142,0.0,LY Corporation,Japan,stock
+4911.T,0.0,23832.194624630753,"Shiseido Company, Limited",Japan,stock
+5406.T,159.26174549836486,0.0,"Kobe Steel, Ltd.",Japan,stock
+5802.T,190.5853446695358,0.0,"Sumitomo Electric Industries, Ltd.",Japan,stock
+5803.T,4793.151082021603,0.0,Fujikura Ltd.,Japan,stock
+6098.T,494.7137983731712,0.0,"Recruit Holdings Co., Ltd.",Japan,stock
+6198.HK,-187.4616877499661,0.0,"Qingdao Port International Co., Ltd.",Hong_Kong,stock
+6479.T,0.0,-4402.644450333881,MINEBEA MITSUMI Inc.,Japan,stock
+6501.T,4563.726487180653,0.0,"Hitachi, Ltd.",Japan,stock
+6645.T,0.0,-26.56534793914669,OMRON Corporation,Japan,stock
+6701.T,27797.558985511165,0.0,NEC Corporation,Japan,stock
+6723.T,457.23610031028534,0.0,Renesas Electronics Corporation,Japan,stock
+6762.T,-500.08956668943404,0.0,TDK Corporation,Japan,stock
+6823.HK,37615.44306038284,0.0,HKT Trust and HKT Limited,Hong_Kong,stock
+6869.HK,2302.706694812545,0.0,Yangtze Optical Fibre And Cable Joint Stock Limited Company,Hong_Kong,stock
+6869.T,0.0,-256.3012177961647,Sysmex Corporation,Japan,stock
+6965.T,0.0,-1070.1495401074278,Hamamatsu Photonics K.K.,Japan,stock
+6971.T,1009.9742005630436,0.0,Kyocera Corporation,Japan,stock
+6981.T,-460.1008120974277,0.0,"Murata Manufacturing Co., Ltd.",Japan,stock
+7011.T,13516.840365542335,0.0,"Mitsubishi Heavy Industries, Ltd.",Japan,stock
+7201.T,0.0,15.328143637297103,"Nissan Motor Co., Ltd.",Japan,stock
+7267.T,258.8972076622235,0.0,"Honda Motor Co., Ltd.",Japan,stock
+7453.T,184.0551959079384,0.0,"Ryohin Keikaku Co., Ltd.",Japan,stock
+7733.T,0.0,-10614.204276559001,Olympus Corporation,Japan,stock
+7936.T,2249.0975008399782,0.0,ASICS Corporation,Japan,stock
+8015.T,-18.91702489676976,0.0,Toyota Tsusho Corporation,Japan,stock
+8058.T,247.89481027938712,0.0,Mitsubishi Corporation,Japan,stock
+8113.T,0.0,1579.089633486455,Unicharm Corporation,Japan,stock
+8802.T,0.0,-190.84955959952384,"Mitsubishi Estate Co., Ltd.",Japan,stock
+9001.T,0.0,-1065.5300223206996,"Tobu Railway Co., Ltd.",Japan,stock
+9009.T,-4197.771290499784,0.0,"Keisei Electric Railway Co., Ltd.",Japan,stock
+9024.T,8748.400588083341,0.0,Seibu Holdings Inc.,Japan,stock
+9041.T,0.0,-171.71493451377873,"Kintetsu Group Holdings Co.,Ltd.",Japan,stock
+9201.T,0.0,5894.833937889289,"Japan Airlines Co., Ltd.",Japan,stock
+9435.T,-4845.442487600201,0.0,"Hikari Tsushin, Inc.",Japan,stock
+9501.T,0.0,-20258.731677895856,"Tokyo Electric Power Company Holdings, Incorporated",Japan,stock
+9602.T,-1480.8664698149244,0.0,"Toho Co., Ltd.",Japan,stock
+9697.T,183.36767699563003,0.0,"Capcom Co., Ltd.",Japan,stock
+9766.T,324.6020587261977,0.0,Konami Group Corporation,Japan,stock
+9992.HK,2056.380781691083,0.0,Pop Mart International Group Limited,Hong_Kong,stock
+9995.HK,-1749.2660585463022,0.0,"RemeGen Co., Ltd.",Hong_Kong,stock
+A2A.MI,3160.5030529423348,0.0,A2A S.p.A.,Western_Europe,stock
+ABF.L,-2492.368134071078,0.0,Associated British Foods plc,Western_Europe,stock
+ACLS,-194.79898109347903,0.0,"Axcelis Technologies, Inc.",US,stock
+ACN,0.0,10734.778456800472,Accenture plc,US,stock
+ACS.MC,-637.3038694377727,0.0,"ACS, Actividades de Construcción y Servicios, S.A.",Western_Europe,stock
+ADBE,0.0,22194.799559399333,Adobe Inc.,US,stock
+ADT,0.0,-1481.7695347602037,ADT Inc.,US,stock
+AGCO,0.0,-614.6374782442253,AGCO Corporation,US,stock
+ALSN,7917.154708899132,0.0,"Allison Transmission Holdings, Inc.",US,stock
+AMCR,0.0,-18109.740459468478,Amcor plc,US,stock
+AMP.MI,0.0,19334.305950546386,Amplifon S.p.A.,Western_Europe,stock
+APA,0.0,-1817.5975413929118,APA Corporation,US,stock
+ARCAD.AS,0.0,-3380.1360307196205,Arcadis NV,Western_Europe,stock
+ARE,0.0,13948.37187987577,"Alexandria Real Estate Equities, Inc.",US,stock
+ARGX,659.7536513879409,0.0,argenx SE,US,stock
+ATI,-36.21604310500386,0.0,ATI Inc.,US,stock
+AUTO.L,0.0,-3524.531072336713,Autotrader Group plc,Western_Europe,stock
+AVGO,10169.815036353926,0.0,Broadcom Inc.,US,stock
+BALD-B.ST,1048.795895744376,0.0,Fastighets AB Balder (publ),Western_Europe,stock
+BAYN.DE,307.8264002746166,-28993.335563366138,Bayer Aktiengesellschaft,Western_Europe,stock
+BC94.L,0.0,-3531.833972959686,"Samsung Electronics Co., Ltd.",Western_Europe,stock
+BCE,0.0,2469.145417622872,BCE Inc.,US,stock
+BESI.AS,2438.5789230397622,0.0,BE Semiconductor Industries N.V.,Western_Europe,stock
+BIIB,0.0,-16466.50930507818,Biogen Inc.,US,stock
+BKNG,560.7047801879007,0.0,Booking Holdings Inc.,US,stock
+BKR,-148.12367208734818,0.0,Baker Hughes Company,US,stock
+BLDR,283.77063817205783,0.0,"Builders FirstSource, Inc.",US,stock
+BOL.ST,279.74166586661977,0.0,Boliden AB (publ),Western_Europe,stock
+BRBR,2949.2723198490407,0.0,"BellRing Brands, Inc.",US,stock
+BRBY.L,0.0,31070.784630489972,Burberry Group plc,Western_Europe,stock
+BSX,17316.577092855292,0.0,Boston Scientific Corporation,US,stock
+BTI,25100.90513699099,0.0,British American Tobacco p.l.c.,US,stock
+BZU.MI,11566.574475720969,0.0,Buzzi S.p.A.,Western_Europe,stock
+CASY,3942.2297860348585,0.0,"Casey's General Stores, Inc.",US,stock
+CAT,26344.835043582636,0.0,Caterpillar Inc.,US,stock
+CAVA,-557.7408088004552,0.0,"CAVA Group, Inc.",US,stock
+CCEP,41642.33707838176,0.0,Coca-Cola Europacific Partners PLC,US,stock
+CCI,0.0,-18078.802363841216,Crown Castle Inc.,US,stock
+CCJ,94.29152865292156,0.0,Cameco Corporation,US,stock
+CHTR,0.0,-1274.0146683065316,"Charter Communications, Inc.",US,stock
+CIEN,-886.148962419645,0.0,Ciena Corporation,US,stock
+CLS,-797.3828707261771,0.0,Celestica Inc.,US,stock
+CMCSA,0.0,-4911.762654544222,Comcast Corporation,US,stock
+CMG,0.0,18933.75686313348,"Chipotle Mexican Grill, Inc.",US,stock
+CMI,-345.0876862138488,0.0,Cummins Inc.,US,stock
+CNA.L,-1403.244668481913,-8381.973538428854,Centrica plc,Western_Europe,stock
+CNM,-666.6605732575725,0.0,"Core & Main, Inc.",US,stock
+CNP,2500.4655151293064,0.0,"CenterPoint Energy, Inc.",US,stock
+CNXC,0.0,8393.663994836863,Concentrix Corporation,US,stock
+COKE,390.46034764534215,0.0,"Coca-Cola Consolidated, Inc.",US,stock
+COLD,0.0,16518.623764239062,"Americold Realty Trust, Inc.",US,stock
+COST,653.3708923181966,0.0,Costco Wholesale Corporation,US,stock
+COTY,0.0,3322.2929281912157,Coty Inc.,US,stock
+CPR.MI,0.0,-3169.756790717589,Davide Campari-Milano N.V.,Western_Europe,stock
+CPRT,0.0,27435.214349359838,"Copart, Inc.",US,stock
+CRH,676.5050623363315,0.0,CRH plc,US,stock
+CRS,1713.5889608137093,0.0,Carpenter Technology Corporation,US,stock
 CRWD,-6282.612712965791,0.0,"CrowdStrike Holdings, Inc.",US,stock
-CSGP,0.0,1642.8512959264212,"CoStar Group, Inc.",US,stock
-CUBE,0.0,95.34036996407082,CubeSmart,US,stock
-CVS,0.0,-427.6386274027551,CVS Health Corporation,US,stock
-CW,14048.372500244011,0.0,Curtiss-Wright Corporation,US,stock
-CX,11.69246088542851,0.0,"CEMEX, S.A.B. de C.V.",US,stock
-D,0.0,-604.9083053200452,"Dominion Energy, Inc.",US,stock
+CSGP,0.0,-2131.7974078665684,"CoStar Group, Inc.",US,stock
+CUBE,0.0,95.34036996407181,CubeSmart,US,stock
+CVS,0.0,-427.63862740275835,CVS Health Corporation,US,stock
+CW,13957.050683768452,0.0,Curtiss-Wright Corporation,US,stock
+CX,11.692460885420559,0.0,"CEMEX, S.A.B. de C.V.",US,stock
+D,0.0,-604.9083053200602,"Dominion Energy, Inc.",US,stock
 DAR,0.0,96.18840272594025,Darling Ingredients Inc.,US,stock
-DASH,-292.64969930318784,0.0,"DoorDash, Inc.",US,stock
-DG,-13336.615585337897,0.0,Dollar General Corporation,US,stock
-DGE.L,0.0,-2389.1438841328545,Diageo plc,Western_Europe,stock
-DKNG,385.8874851086929,0.0,DraftKings Inc.,US,stock
-DOW,0.0,-5127.741009658994,Dow Inc.,US,stock
-DTE.DE,13459.733902869923,0.0,Deutsche Telekom AG,Western_Europe,stock
-DTM,9159.06015872519,0.0,"DT Midstream, Inc.",US,stock
-DUOL,-347.6712874732291,0.0,"Duolingo, Inc.",US,stock
-ECL,294.75767433613504,0.0,Ecolab Inc.,US,stock
-ELE.MC,15631.961053107741,0.0,"Endesa, S.A.",Western_Europe,stock
-ELF,219.14585767566138,0.0,"e.l.f. Beauty, Inc.",US,stock
-EME,1148.7839415420988,0.0,"EMCOR Group, Inc.",US,stock
-ENEL.MI,780.4898753873084,0.0,Enel SpA,Western_Europe,stock
-ENI.MI,-2806.187203591763,0.0,Eni S.p.A.,Western_Europe,stock
-EQNR,0.0,-2.811852711704546,Equinor ASA,US,stock
-EQT,1010.5884140092521,0.0,EQT Corporation,US,stock
-ES,0.0,-12060.40170743659,Eversource Energy,US,stock
-ETN,557.2140172813963,0.0,Eaton Corporation plc,US,stock
-ETR,821.0671858548209,0.0,Entergy Corporation,US,stock
+DASH,-292.64969930319177,0.0,"DoorDash, Inc.",US,stock
+DG,-13336.615585337911,0.0,Dollar General Corporation,US,stock
+DGE.L,0.0,-2389.1438841328745,Diageo plc,Western_Europe,stock
+DKNG,385.88748510872165,0.0,DraftKings Inc.,US,stock
+DOW,0.0,-5127.741009659071,Dow Inc.,US,stock
+DTE.DE,13459.733902869913,0.0,Deutsche Telekom AG,Western_Europe,stock
+DTM,10504.812998461823,0.0,"DT Midstream, Inc.",US,stock
+DUOL,-347.6712874732489,0.0,"Duolingo, Inc.",US,stock
+ECL,294.757674336141,0.0,Ecolab Inc.,US,stock
+ELE.MC,15629.653257774728,0.0,"Endesa, S.A.",Western_Europe,stock
+ELF,219.14585767570736,0.0,"e.l.f. Beauty, Inc.",US,stock
+EME,1148.7839415421304,0.0,"EMCOR Group, Inc.",US,stock
+ENEL.MI,780.4898753873304,0.0,Enel SpA,Western_Europe,stock
+ENI.MI,-568.2999747036415,0.0,Eni S.p.A.,Western_Europe,stock
+EQNR,0.0,-2.8118527117089798,Equinor ASA,US,stock
+EQT,1010.5884140092837,0.0,EQT Corporation,US,stock
+ES,0.0,-12060.401707436591,Eversource Energy,US,stock
+ETN,557.2140172814067,0.0,Eaton Corporation plc,US,stock
+ETR,1093.0353818545245,0.0,Entergy Corporation,US,stock
 FB2A.DE,21586.190776262643,0.0,"Meta Platforms, Inc.",Western_Europe,stock
-FCT.MI,0.0,202.15846606210337,Fincantieri S.p.A.,Western_Europe,stock
-FDX,1087.2372899637737,0.0,FedEx Corporation,US,stock
-FIVE,93.12261283752241,0.0,"Five Below, Inc.",US,stock
-FIX,-220.35827643849532,0.0,"Comfort Systems USA, Inc.",US,stock
-FLUT,0.0,9473.139645743791,Flutter Entertainment plc,US,stock
-FME.DE,-4182.590693275851,0.0,Fresenius Medical Care AG,Western_Europe,stock
-FMX,3016.9895988264443,0.0,"Fomento Económico Mexicano, S.A.B. de C.V.",US,stock
-FOXA,37128.855627937104,0.0,Fox Corporation,US,stock
-FRE.DE,-1049.4758335691133,0.0,Fresenius SE & Co. KGaA,Western_Europe,stock
-G1A.DE,-3798.10919556355,0.0,GEA Group Aktiengesellschaft,Western_Europe,stock
-G24.DE,-1180.1266332739579,0.0,Scout24 SE,Western_Europe,stock
-GDDY,996.5252463739771,0.0,GoDaddy Inc.,US,stock
-GEV,887.0786925645943,0.0,GE Vernova Inc.,US,stock
-GFL,-480.38725078429,0.0,GFL Environmental Inc.,US,stock
-GILD,22402.752323315573,0.0,"Gilead Sciences, Inc.",US,stock
-GIVN.SW,4195.293795624877,0.0,Givaudan SA,Western_Europe,stock
-GOOGL,2714.0264790418905,0.0,Alphabet Inc.,US,stock
-HAL,0.0,-8197.551718425513,Halliburton Company,US,stock
-HEI.DE,20634.615966879577,0.0,Heidelberg Materials AG,Western_Europe,stock
-HII,-618.9587215934042,0.0,"Huntington Ingalls Industries, Inc.",US,stock
-HIK.L,942.1512249014977,0.0,Hikma Pharmaceuticals PLC,Western_Europe,stock
-HOT.DE,45395.37446849281,0.0,HOCHTIEF Aktiengesellschaft,Western_Europe,stock
-HST,-519.0234069838818,0.0,"Host Hotels & Resorts, Inc.",US,stock
-HUBS,-4144.381297095947,0.0,"HubSpot, Inc.",US,stock
-IAG.L,12865.083921518193,0.0,International Consolidated Airlines Group S.A.,Western_Europe,stock
-ICLR,185.3694404778854,0.0,ICON Public Limited Company,US,stock
-IG.MI,-13784.29186380261,0.0,Italgas S.p.A.,Western_Europe,stock
-IMBL.XC,5730.3085579289655,0.0,Imperial Brands PLC,Western_Europe,stock
-IRM,298.37570803418845,0.0,Iron Mountain Incorporated,US,stock
-IT,0.0,3447.6999640595345,"Gartner, Inc.",US,stock
-ITX.MC,22335.72471702389,0.0,"Industria de Diseño Textil, S.A.",Western_Europe,stock
-JBL,354.89737230100917,0.0,Jabil Inc.,US,stock
-JOBY,0.0,653.6472966429606,"Joby Aviation, Inc.",US,stock
-KER.PA,0.0,10112.552616002948,Kering SA,Western_Europe,stock
-KOF,6559.606212324398,0.0,"Coca-Cola FEMSA, S.A.B. de C.V.",US,stock
-LDO.MI,8349.990531594423,0.0,Leonardo S.p.a.,Western_Europe,stock
-LEGN,-7914.336326471986,0.0,Legend Biotech Corporation,US,stock
-LHA.DE,0.0,-845.063941344848,Deutsche Lufthansa AG,Western_Europe,stock
-LLY,6207.146672268085,0.0,Eli Lilly and Company,US,stock
-LLYVK,1392.014340218762,0.0,"Liberty Live Holdings, Inc.",US,stock
-LYB,0.0,-8902.082483848179,LyondellBasell Industries N.V.,US,stock
-MCHP,0.0,1192.3896268227832,Microchip Technology Incorporated,US,stock
-MGA,3653.057554726808,0.0,Magna International Inc.,US,stock
-MKS.L,34797.97450353763,0.0,Marks and Spencer Group plc,Western_Europe,stock
-MLI,32445.763866771227,0.0,"Mueller Industries, Inc.",US,stock
-MMM,1769.4189439825152,15.799068718600838,3M Company,US,stock
-MNST,-15019.94096806008,0.0,Monster Beverage Corporation,US,stock
-MPC,-1280.0662577027338,0.0,Marathon Petroleum Corporation,US,stock
-MRO.L,175.649489175248,0.0,Melrose Industries PLC,Western_Europe,stock
-MSM,0.0,-2978.656426924451,"MSC Industrial Direct Co., Inc.",US,stock
-MU,2115.363092005044,0.0,"Micron Technology, Inc.",US,stock
-NEE,0.0,-13013.361786640284,"NextEra Energy, Inc.",US,stock
-NEXI.MI,0.0,-13976.308673758427,Nexi S.p.A.,Western_Europe,stock
-NFLX,-1173.2434939923344,0.0,"Netflix, Inc.",US,stock
-NHY.OL,-2275.4647639495533,0.0,Norsk Hydro ASA,Western_Europe,stock
-NI,4409.100054299024,0.0,NiSource Inc.,US,stock
-NIBE-B.ST,0.0,4398.818305692515,NIBE Industrier AB (publ),Western_Europe,stock
-NRG,1156.3360371123345,0.0,"NRG Energy, Inc.",US,stock
-NTNX,3901.369849053305,0.0,"Nutanix, Inc.",US,stock
-NTRA,52233.39872883262,0.0,"Natera, Inc.",US,stock
-NVDA,2083.4798922186537,0.0,NVIDIA Corporation,US,stock
-OKE,0.0,-21052.857992605936,"ONEOK, Inc.",US,stock
-ORCL,1253.1720729946983,0.0,Oracle Corporation,US,stock
-ORNBV.HE,6516.4115932339155,0.0,Orion Oyj,Western_Europe,stock
-ORSTED.CO,0.0,-5768.523463331431,Ørsted A/S,Western_Europe,stock
-PAA,24035.74206624546,0.0,"Plains All American Pipeline, L.P.",US,stock
-PAC,216.5945891436436,0.0,"Grupo Aeroportuario del Pacífico, S.A.B. de C.V.",US,stock
-PH,1092.4982483515455,0.0,Parker-Hannifin Corporation,US,stock
-PHM,-6807.392266054091,0.0,"PulteGroup, Inc.",US,stock
-PKX,0.0,17418.566684671903,POSCO Holdings Inc.,US,stock
-PNDORA.CO,2499.41795504925,0.0,Pandora A/S,Western_Europe,stock
-PPC,-1796.8620682799938,0.0,Pilgrim's Pride Corporation,US,stock
-PRY.MI,-9174.871552422996,0.0,Prysmian S.p.A.,Western_Europe,stock
-PST.MI,20222.30314592278,0.0,Poste Italiane S.p.A.,Western_Europe,stock
-PUB.PA,-7449.760460942303,0.0,Publicis Groupe S.A.,Western_Europe,stock
-RAA.DE,0.0,-912.4158994970621,RATIONAL Aktiengesellschaft,Western_Europe,stock
-RACE.MI,29802.508848736376,0.0,Ferrari N.V.,Western_Europe,stock
-RBLX,-7183.406367266511,0.0,Roblox Corporation,US,stock
-RCL,1220.4016019754151,0.0,Royal Caribbean Cruises Ltd.,US,stock
-REL.L,0.0,-1807.6849718462379,RELX PLC,Western_Europe,stock
-RHI,0.0,55359.51806572411,Robert Half Inc.,US,stock
-RMS.PA,1245.161861103454,0.0,Hermès International Société en commandite par actions,Western_Europe,stock
-RMV.L,0.0,-5450.197333149784,Rightmove plc,Western_Europe,stock
-ROIV,874.3228796381654,0.0,Roivant Sciences Ltd.,US,stock
-ROST,6132.142715279074,0.0,"Ross Stores, Inc.",US,stock
-RR.L,21316.10610205663,0.0,Rolls-Royce Holdings plc,Western_Europe,stock
-SAF.PA,1124.0583075941731,0.0,Safran SA,Western_Europe,stock
-SAGA-B.ST,0.0,186.69121508166413,AB Sagax (publ),Western_Europe,stock
-SAP.DE,3246.449036255635,0.0,SAP SE,Western_Europe,stock
-SDZ.SW,6812.175250741801,0.0,Sandoz Group AG,Western_Europe,stock
-SE,-436.70255956221047,0.0,Sea Limited,US,stock
-SFM,18581.801097227515,0.0,"Sprouts Farmers Market, Inc.",US,stock
-SGI,-1189.6383093295913,0.0,Somnigroup International Inc.,US,stock
-SGRO.L,0.0,-6270.157811244216,SEGRO Plc,Western_Europe,stock
-SIKA.SW,0.0,-12693.322206732555,Sika AG,Western_Europe,stock
-SMSN.IL,-1811.2439614971613,0.0,"Samsung Electronics Co., Ltd.",Western_Europe,stock
-SN,-3384.8508550626043,0.0,"SharkNinja, Inc.",US,stock
-SPOT,11155.95424665256,0.0,Spotify Technology S.A.,US,stock
-SPSN.SW,20134.943911866325,0.0,Swiss Prime Site AG,Western_Europe,stock
-SPXC,1.5891272244568881,0.0,"SPX Technologies, Inc.",US,stock
-SSD,3523.9036854139727,0.0,"Simpson Manufacturing Co., Inc.",US,stock
-STLAM.MI,0.0,-20919.543645137583,Stellantis N.V.,Western_Europe,stock
-T,723.4678853460878,0.0,AT&T Inc.,US,stock
-TDG,2494.4125204883712,0.0,TransDigm Group Incorporated,US,stock
-TEL2-B.ST,10521.181336162743,0.0,Tele2 AB (publ),Western_Europe,stock
-TELIA.ST,6523.476976192958,0.0,Telia Company AB (publ),Western_Europe,stock
-TEP.PA,0.0,17784.954465348925,Teleperformance SE,Western_Europe,stock
-TGT,128.86133330416783,0.0,Target Corporation,US,stock
-TIGO,43479.758331455894,0.0,Millicom International Cellular S.A.,US,stock
-TIMB,-6688.2755164416285,0.0,TIM S.A.,US,stock
-TKO,518.1164222410048,0.0,"TKO Group Holdings, Inc.",US,stock
-TME,54.191973948396935,0.0,Tencent Music Entertainment Group,US,stock
-TOL,2459.0021280495284,0.0,"Toll Brothers, Inc.",US,stock
-TPR,23431.464035718716,0.0,"Tapestry, Inc.",US,stock
-TRGP,-2739.9461742870326,0.0,Targa Resources Corp.,US,stock
-TRI,0.0,-298.85123380838434,Thomson Reuters Corporation,US,stock
-TTWO,-61.27928023174317,0.0,"Take-Two Interactive Software, Inc.",US,stock
-TU,0.0,4777.27706168485,TELUS Corporation,US,stock
-TW.L,0.0,-114.74810722750289,Taylor Wimpey plc,Western_Europe,stock
-U,0.0,904.1416288263873,Unity Software Inc.,US,stock
-UCB.BR,981.3606089973869,0.0,UCB SA,Western_Europe,stock
-UI,0.0,7333.067472951889,Ubiquiti Inc.,US,stock
-ULTA,-13695.829264705513,0.0,"Ulta Beauty, Inc.",US,stock
-UMI.BR,0.0,19244.293049650332,Umicore SA,Western_Europe,stock
-UPS,0.0,5060.023060950732,"United Parcel Service, Inc.",US,stock
-URW.PA,2188.85431361034,0.0,Unibail-Rodamco-Westfield SE,Western_Europe,stock
-UTG.L,0.0,-105.45649696664023,Unite Group PLC,Western_Europe,stock
-VEEV,-10719.369948440044,0.0,Veeva Systems Inc.,US,stock
-VIV,-5865.3985213434835,0.0,Telefônica Brasil S.A.,US,stock
-VMI,0.0,-15466.181026233331,"Valmont Industries, Inc.",US,stock
-VNA.DE,143.54853882965824,0.0,Vonovia SE,Western_Europe,stock
+FCT.MI,0.0,-2872.4882251185954,Fincantieri S.p.A.,Western_Europe,stock
+FDX,1087.2372899637924,0.0,FedEx Corporation,US,stock
+FIVE,76.31404909784311,0.0,"Five Below, Inc.",US,stock
+FIX,-454.7449404850996,0.0,"Comfort Systems USA, Inc.",US,stock
+FLUT,0.0,8793.680096539894,Flutter Entertainment plc,US,stock
+FME.DE,-4182.590693275861,0.0,Fresenius Medical Care AG,Western_Europe,stock
+FMX,3016.989598826446,0.0,"Fomento Económico Mexicano, S.A.B. de C.V.",US,stock
+FOXA,37128.85562793711,0.0,Fox Corporation,US,stock
+FRE.DE,-1049.4758335691338,0.0,Fresenius SE & Co. KGaA,Western_Europe,stock
+FTNT,-14112.578699949736,0.0,"Fortinet, Inc.",US,stock
+G1A.DE,-3798.1091955635625,0.0,GEA Group Aktiengesellschaft,Western_Europe,stock
+G24.DE,-1180.1266332739694,0.0,Scout24 SE,Western_Europe,stock
+GDDY,996.525246373985,0.0,GoDaddy Inc.,US,stock
+GEV,835.847632986369,0.0,GE Vernova Inc.,US,stock
+GFL,-480.38725078429326,0.0,GFL Environmental Inc.,US,stock
+GILD,22344.44158614309,0.0,"Gilead Sciences, Inc.",US,stock
+GIVN.SW,4195.2937956248825,0.0,Givaudan SA,Western_Europe,stock
+GOOGL,2674.97132212647,0.0,Alphabet Inc.,US,stock
+HAL,0.0,-8197.551718425508,Halliburton Company,US,stock
+HEI.DE,20634.61596687966,0.0,Heidelberg Materials AG,Western_Europe,stock
+HII,-575.6914627370342,0.0,"Huntington Ingalls Industries, Inc.",US,stock
+HIK.L,942.1512249014968,0.0,Hikma Pharmaceuticals PLC,Western_Europe,stock
+HOT.DE,45050.848081596814,0.0,HOCHTIEF Aktiengesellschaft,Western_Europe,stock
+HST,-586.3009310146297,0.0,"Host Hotels & Resorts, Inc.",US,stock
+HUBS,-4144.3812970959425,0.0,"HubSpot, Inc.",US,stock
+IAG.L,12791.396613628054,0.0,International Consolidated Airlines Group S.A.,Western_Europe,stock
+ICLR,185.36944047789189,0.0,ICON Public Limited Company,US,stock
+IG.MI,-13746.174480923777,0.0,Italgas S.p.A.,Western_Europe,stock
+IMBL.XC,5730.308557928971,0.0,Imperial Brands PLC,Western_Europe,stock
+IRM,298.37570803419146,0.0,Iron Mountain Incorporated,US,stock
+IT,0.0,3312.3207543575077,"Gartner, Inc.",US,stock
+ITX.MC,22335.724717023924,0.0,"Industria de Diseño Textil, S.A.",Western_Europe,stock
+JBL,354.89737230102804,0.0,Jabil Inc.,US,stock
+JOBY,0.0,1688.6389062061812,"Joby Aviation, Inc.",US,stock
+KER.PA,0.0,10112.552616002955,Kering SA,Western_Europe,stock
+KOF,6559.6062123244055,0.0,"Coca-Cola FEMSA, S.A.B. de C.V.",US,stock
+LDO.MI,8349.990531594494,0.0,Leonardo S.p.a.,Western_Europe,stock
+LEGN,-7914.336326471995,0.0,Legend Biotech Corporation,US,stock
+LHA.DE,0.0,-845.0639413448457,Deutsche Lufthansa AG,Western_Europe,stock
+LLY,6207.146672268112,0.0,Eli Lilly and Company,US,stock
+LLYVK,-34.942672485081744,0.0,"Liberty Live Holdings, Inc.",US,stock
+LOTB.BR,8.710340378441384,0.0,Lotus Bakeries NV,Western_Europe,stock
+LYB,0.0,-8902.082483848215,LyondellBasell Industries N.V.,US,stock
+MCHP,0.0,1192.3896268227836,Microchip Technology Incorporated,US,stock
+MGA,3709.328637791512,0.0,Magna International Inc.,US,stock
+MKS.L,34797.97450353766,0.0,Marks and Spencer Group plc,Western_Europe,stock
+MLI,32459.251094895328,0.0,"Mueller Industries, Inc.",US,stock
+MMM,1769.4189439825277,15.799068718600838,3M Company,US,stock
+MNST,501.7102031406266,0.0,Monster Beverage Corporation,US,stock
+MPC,-1280.0662577027454,0.0,Marathon Petroleum Corporation,US,stock
+MRO.L,175.64948917523833,0.0,Melrose Industries PLC,Western_Europe,stock
+MSM,0.0,-2978.6564269244554,"MSC Industrial Direct Co., Inc.",US,stock
+MU,-4316.781811056848,0.0,"Micron Technology, Inc.",US,stock
+NEE,0.0,-13013.361786640298,"NextEra Energy, Inc.",US,stock
+NEXI.MI,0.0,-13976.308673758434,Nexi S.p.A.,Western_Europe,stock
+NFLX,-1173.2434939923594,0.0,"Netflix, Inc.",US,stock
+NHY.OL,-2392.883648159337,0.0,Norsk Hydro ASA,Western_Europe,stock
+NI,4409.10005429903,0.0,NiSource Inc.,US,stock
+NIBE-B.ST,0.0,4398.818305692561,NIBE Industrier AB (publ),Western_Europe,stock
+NRG,1156.336037112387,0.0,"NRG Energy, Inc.",US,stock
+NTNX,3901.369849053288,0.0,"Nutanix, Inc.",US,stock
+NTRA,48178.123897870406,0.0,"Natera, Inc.",US,stock
+NUE,65.16206753745388,0.0,Nucor Corporation,US,stock
+NVDA,2083.479892218692,0.0,NVIDIA Corporation,US,stock
+OKE,0.0,-21052.857992605957,"ONEOK, Inc.",US,stock
+ORCL,1253.1720729947235,0.0,Oracle Corporation,US,stock
+ORNBV.HE,6516.411593233938,0.0,Orion Oyj,Western_Europe,stock
+ORSTED.CO,0.0,-5768.523463331447,Ørsted A/S,Western_Europe,stock
+PAA,24035.742066245468,0.0,"Plains All American Pipeline, L.P.",US,stock
+PAC,216.594589143636,0.0,"Grupo Aeroportuario del Pacífico, S.A.B. de C.V.",US,stock
+PH,1092.4982483515664,0.0,Parker-Hannifin Corporation,US,stock
+PHM,-6807.392266054081,0.0,"PulteGroup, Inc.",US,stock
+PKX,0.0,17418.56668467188,POSCO Holdings Inc.,US,stock
+PNDORA.CO,2499.4179550492645,0.0,Pandora A/S,Western_Europe,stock
+PPC,-1796.8620682799992,0.0,Pilgrim's Pride Corporation,US,stock
+PRY.MI,-12496.384138993024,0.0,Prysmian S.p.A.,Western_Europe,stock
+PST.MI,19665.66086616426,0.0,Poste Italiane S.p.A.,Western_Europe,stock
+PUB.PA,-7449.760460942305,0.0,Publicis Groupe S.A.,Western_Europe,stock
+RAA.DE,0.0,-912.4158994970609,RATIONAL Aktiengesellschaft,Western_Europe,stock
+RACE.MI,29802.508848736383,0.0,Ferrari N.V.,Western_Europe,stock
+RBLX,-7183.406367266611,0.0,Roblox Corporation,US,stock
+RCL,1220.4016019754756,0.0,Royal Caribbean Cruises Ltd.,US,stock
+REL.L,0.0,-2090.7386181544016,RELX PLC,Western_Europe,stock
+RHI,0.0,55359.51806572415,Robert Half Inc.,US,stock
+RMS.PA,1245.161861103465,0.0,Hermès International Société en commandite par actions,Western_Europe,stock
+RMV.L,0.0,-6057.483598454436,Rightmove plc,Western_Europe,stock
+ROIV,-4480.031276751632,0.0,Roivant Sciences Ltd.,US,stock
+ROST,5349.940144435614,0.0,"Ross Stores, Inc.",US,stock
+RR.L,20368.545347650397,0.0,Rolls-Royce Holdings plc,Western_Europe,stock
+SAF.PA,1124.0583075942227,0.0,Safran SA,Western_Europe,stock
+SAGA-B.ST,0.0,186.69121508166936,AB Sagax (publ),Western_Europe,stock
+SAP.DE,3246.4490362556667,0.0,SAP SE,Western_Europe,stock
+SDZ.SW,7473.387773176967,0.0,Sandoz Group AG,Western_Europe,stock
+SE,-436.7025595622336,0.0,Sea Limited,US,stock
+SFM,18581.8010972275,0.0,"Sprouts Farmers Market, Inc.",US,stock
+SGI,-1189.63830932962,0.0,Somnigroup International Inc.,US,stock
+SGRO.L,0.0,-6270.157811244217,SEGRO Plc,Western_Europe,stock
+SIKA.SW,0.0,-12693.322206732584,Sika AG,Western_Europe,stock
+SMSN.IL,-2599.1861465967195,0.0,"Samsung Electronics Co., Ltd.",Western_Europe,stock
+SN,-3414.7247838105054,0.0,"SharkNinja, Inc.",US,stock
+SPOT,11155.95424665259,0.0,Spotify Technology S.A.,US,stock
+SPSN.SW,17593.63433562467,0.0,Swiss Prime Site AG,Western_Europe,stock
+SPXC,1.5891272244637662,0.0,"SPX Technologies, Inc.",US,stock
+SSD,3523.903685413996,0.0,"Simpson Manufacturing Co., Inc.",US,stock
+STLAM.MI,0.0,-20919.54364513757,Stellantis N.V.,Western_Europe,stock
+T,723.4678853460955,0.0,AT&T Inc.,US,stock
+TDG,2494.4125204884194,0.0,TransDigm Group Incorporated,US,stock
+TEL2-B.ST,10521.181336162745,0.0,Tele2 AB (publ),Western_Europe,stock
+TELIA.ST,6568.048358752846,0.0,Telia Company AB (publ),Western_Europe,stock
+TEP.PA,0.0,17784.954465348947,Teleperformance SE,Western_Europe,stock
+TGT,-150.2626123773626,0.0,Target Corporation,US,stock
+TIGO,43257.6586709151,0.0,Millicom International Cellular S.A.,US,stock
+TIMB,-6688.275516441641,0.0,TIM S.A.,US,stock
+TKO,518.1164222410348,0.0,"TKO Group Holdings, Inc.",US,stock
+TME,54.191973948441046,0.0,Tencent Music Entertainment Group,US,stock
+TOL,2459.0021280495675,0.0,"Toll Brothers, Inc.",US,stock
+TPR,23599.492584423617,0.0,"Tapestry, Inc.",US,stock
+TRGP,-2739.9461742870562,0.0,Targa Resources Corp.,US,stock
+TRI,0.0,-493.59063845384935,Thomson Reuters Corporation,US,stock
+TTWO,-61.279280231760026,0.0,"Take-Two Interactive Software, Inc.",US,stock
+TU,0.0,4676.6368940609445,TELUS Corporation,US,stock
+TW.L,0.0,-114.74810722749993,Taylor Wimpey plc,Western_Europe,stock
+U,0.0,904.1416288263862,Unity Software Inc.,US,stock
+UCB.BR,981.3606089973978,0.0,UCB SA,Western_Europe,stock
+UI,0.0,7333.067472951865,Ubiquiti Inc.,US,stock
+ULTA,-13695.829264705546,0.0,"Ulta Beauty, Inc.",US,stock
+UMI.BR,0.0,19244.293049650376,Umicore SA,Western_Europe,stock
+UPS,0.0,5060.023060950725,"United Parcel Service, Inc.",US,stock
+URW.PA,2188.8543136103326,0.0,Unibail-Rodamco-Westfield SE,Western_Europe,stock
+UTG.L,0.0,-105.45649696664404,Unite Group PLC,Western_Europe,stock
+VEEV,-10719.36994844005,0.0,Veeva Systems Inc.,US,stock
+VIV,-5865.398521343492,0.0,Telefônica Brasil S.A.,US,stock
+VMI,0.0,-15466.181026233347,"Valmont Industries, Inc.",US,stock
+VNA.DE,143.54853882968015,0.0,Vonovia SE,Western_Europe,stock
 VOD.L,0.0,-1838.0204838447157,Vodafone Group Public Limited Company,Western_Europe,stock
-VRSK,0.0,5635.7522371878995,"Verisk Analytics, Inc.",US,stock
-WBD,9545.208478745588,-9668.989132924695,"Warner Bros. Discovery, Inc.",US,stock
-WCC,849.6987099455081,0.0,"WESCO International, Inc.",US,stock
-WDC,-6950.3941826417695,0.0,Western Digital Corporation,US,stock
-WELL,3942.9711377834583,0.0,Welltower Inc.,US,stock
-WES,2297.947329785091,0.0,"Western Midstream Partners, LP",US,stock
-WFRD,-8228.97617227435,0.0,Weatherford International plc,US,stock
-WING,1294.0295905056296,0.0,Wingstop Inc.,US,stock
-WKL.AS,0.0,-804.3338614114614,Wolters Kluwer N.V.,Western_Europe,stock
-WY,0.0,-3310.827022364949,Weyerhaeuser Company,US,stock
-XEL,0.0,-53.39809115527245,Xcel Energy Inc.,US,stock
-XRAY,0.0,782.5712888677165,DENTSPLY SIRONA Inc.,US,stock
-YAR.OL,0.0,2835.086398956979,Yara International ASA,Western_Europe,stock
-ZBRA,0.0,5991.115764818864,Zebra Technologies Corporation,US,stock
+VRSK,0.0,5385.750957679072,"Verisk Analytics, Inc.",US,stock
+WBD,10222.26703304805,-9668.98913292472,"Warner Bros. Discovery, Inc.",US,stock
+WCC,739.2426392737882,0.0,"WESCO International, Inc.",US,stock
+WDC,-7441.8983050973075,0.0,Western Digital Corporation,US,stock
+WELL,4233.463831555536,0.0,Welltower Inc.,US,stock
+WES,2297.947329785097,0.0,"Western Midstream Partners, LP",US,stock
+WFRD,-8228.976172274346,0.0,Weatherford International plc,US,stock
+WING,1294.0295905056255,0.0,Wingstop Inc.,US,stock
+WKL.AS,0.0,-1143.648597004837,Wolters Kluwer N.V.,Western_Europe,stock
+WY,0.0,-3310.827022364945,Weyerhaeuser Company,US,stock
+XEL,0.0,-53.39809115527504,Xcel Energy Inc.,US,stock
+XRAY,0.0,782.5712888677169,DENTSPLY SIRONA Inc.,US,stock
+YAR.OL,0.0,2835.0863989569816,Yara International ASA,Western_Europe,stock
+ZBRA,0.0,5991.115764818881,Zebra Technologies Corporation,US,stock

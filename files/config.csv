@@ -61,6 +61,7 @@ factors.regional_mapping.US,US
 factors.regional_mapping.Western_Europe,Europe
 factors.regional_mapping.Japan,Japan
 factors.regional_mapping.Hong_Kong,Asia_Pacific_ex_Japan
+factors.source_policy,"Use published regional FF6 when the requested observations are available; otherwise construct regional FF6-style factors from the saved universe. Use one source for the complete regression window, retain availability dates, and pin source vintages for replay."
 selection.target_long_count,70
 selection.target_short_count,20
 selection.long_count_range[0],50
@@ -146,7 +147,7 @@ rebalancing.book_absolute_band,0.02
 rebalancing.regional_net_band,0.01
 rebalancing.minimum_daily_traded_nav,0.02
 backtest.evaluation_start,2023-09-30
-backtest.evaluation_end,2026-09-28
+backtest.evaluation_end,2026-10-16
 backtest.initial_nav,1000000.0
 backtest.cash_interest_annual_rate,0.0
 backtest.liquidate_at_end,False
@@ -166,9 +167,10 @@ output.save_matrices,True
 execution.replace_unexecutable,True
 execution.replacement_timing,scheduled
 execution.require_positive_volume,False
-experiment.variant,factor_neutral
+experiment.variant,combined_standard
 experiment.clustering_applied,True
 experiment.short_split,stocks_only
 experiment.momentum_mode,unrestricted
 experiment.factor_basis,regional FF5 + momentum; fitted stock betas only; no ETF positions
 experiment.dollar_neutrality_enforced,False
+experiment.reproduction,pinned_decision_replay

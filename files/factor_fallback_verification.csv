@@ -1,0 +1,4 @@
+metric,value
+passed,True
+scope,"October continuation: fresh FF6 fits, selection, optimization and execution with auto factor fallback"
+maximum_nav_difference_usd,0.0

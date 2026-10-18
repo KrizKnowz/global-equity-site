@@ -1,0 +1,10 @@
+metric,value
+passed,True
+mode,archived_decision_execution_replay
+maximum_economic_difference_usd,4.889443516731262e-09
+maximum_nav_difference_usd,3.725290298461914e-09
+maximum_weight_difference,1.8041124150158794e-16
+maximum_trade_difference_usd,3.725290298461914e-09
+valuation_sessions,792
+executed_trades,7687
+historical_optimizer_refitted,False
