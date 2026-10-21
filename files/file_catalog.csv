@@ -1,31 +1,32 @@
-name,rows,description,bytes,sha256,category
-nav_daily.csv,792.0,"Daily USD ledger, gross/net unit NAV and daily drawdowns",385396,73998fbae557927f9ecbe0b09d5488e375614044e02f4f2be341fa42e4a62937,Portfolio records
-holdings_daily.csv,71260.0,Actual closing active holdings; signed fractions of NAV and USD notionals,13171209,448bc66a855077e542f7b129688b9c56544123fb08a02911cf1abf8c3f89cc46,Portfolio records
-holdings_monthly.csv,3330.0,Actual holdings at each month's last valuation,615617,8bb95904fee217d29873f4fc97e22995455cff9b6501065fcbffdbf31a16dd83,Portfolio records
-holdings_latest.csv,90.0,Actual holdings at the last valuation,16643,419da6e0be61b228c9fe1d583669fdc886ae8a1deec394651343f81f7a71b688,Portfolio records
-trades.csv,7687.0,"Executed fills; positive buys include short covers, negative sells include short openings",1882017,5f31e37260a775c76ba877e6db7995d6087fbc5714e39f0a2fcd73505292dc78,Portfolio records
-monthly_performance.csv,37.0,"Compounded returns, month-end drawdowns, fees and traded-notional turnover",10572,f56c9c7dea7a7c2c2c224e185506cf457cde9ae5c0f870113996093f3b824b23,Portfolio records
-targets.csv,142290.0,Dated model proposals and explicit execution targets; not actual holdings,21329101,743fc8f3d4ad6cc49982fb60140e22a20197481b62d743ccdee770f4ab626b46,Portfolio records
-cash_settlements.csv,2.0,"Corporate-action cash receipts; transfers of marked positions, not market trades",125,aa8ae9ebdde1df249017da23374b289d93edb6e0b923e28c4804691c37b3726e,Methodology & audit
-factor_source_periods.csv,2.0,Pinned factor source for each period of the continuous account,194,7c69aad40d858aaab389b95557fe171c53f0022fa0072d37f2f60508281e32b0,Risk & attribution
-decisions.csv,792.0,Decision reasons and order counts,85802,9e0839f009e3c0b60fdc9d04228df0d91b98fc3ce07bae1988e75b42bc15a67b,Portfolio records
-execution_events.csv,0.0,"Execution locks, missing fills and replacements",68,09b277c5cf7744c152da0b6a7bb274df3376378dbcfcbcb1c8d229b8d43bb496,Portfolio records
-factor_exposures_daily.csv,792.0,Actual weights under latest available fitted betas,454735,49ec8706e5cd80d74dc6b5958721a9c933a1fbe83c38d84d896598830476e478,Risk & attribution
-factor_exposures_target.csv,19008.0,Model target exposures and declared tolerances,2573835,b065a1cf04c92766f3afa39031caaf93e9136fd376d3a9f0ce82088de1c4d220,Risk & attribution
-pnl_daily.csv,792.0,Daily gross P&L by leg and costs,75373,ddf07e342ef121391c4b9612d768aa5b2de3b726c1099b85d4ceddf5b2efb787,Risk & attribution
-pnl_by_security.csv,334.0,Security-level attribution over the run,21895,fb6372e23cbc3358d56f05b5ad655dc788b36a8f6f3c6b00de1dd7f2afc7200f,Risk & attribution
-pnl_monthly_by_security.csv,37.0,Security-level monthly attribution,104880,a6773cf73313670f8394f174844185eb252383ca2516a16e65d6d08602fd9877,Risk & attribution
-leg_returns_daily.csv,2376.0,Daily leg returns and NAV contributions,388711,16634464a621f39720d04a095de442214f3b39a274c7faef4760bdcfc2d8641c,Risk & attribution
-leg_returns_monthly.csv,111.0,Monthly leg returns and linked NAV contributions,20059,7b4ae8578d777a3d4be87414bf9a4b3f8bf3263c93e9a47bd37c5b00a7bfc5ca,Risk & attribution
-leg_summary.csv,3.0,Full-period leg returns and linked contributions,564,0fe745fc4ed7b7034c0b059f98961f51e908c78910b976c72eae822c8353b732,Risk & attribution
-risk_summary.csv,121.0,Flattened risk_summary; rates and weights use decimal fractions,4502,0de50856d9f209f0ae32e818b42672a4c189b028a9a7231fb8e9f454474c3f90,Risk & attribution
-config.csv,175.0,Flattened config; rates and weights use decimal fractions,7424,b3c58d66ac8b15fb941257dd998e1a6fb89214d9e2faacb08e45f98dfdc41bf6,Methodology & audit
-validation.csv,17.0,Flattened validation; rates and weights use decimal fractions,1108,ec3ecd77fd82fc75f9b0b35a5566970e88f7bcf0fa2d59db6d1c78f684d01492,Methodology & audit
-accounting_metadata.csv,11.0,Flattened accounting_metadata; rates and weights use decimal fractions,353,6a60144001fd5d0acb551f50d00a520bf9c53ac38cc2e13e32755a295ac89545,Methodology & audit
-reproduction.csv,9.0,Flattened reproduction; rates and weights use decimal fractions,348,d010c29f07825f8fc627eef5af72e833613c42c7b96d03efa479c82105768fba,Methodology & audit
-factor_fallback_verification.csv,3.0,Flattened factor_fallback_verification; rates and weights use decimal fractions,166,13fd41ec29f44baf0ff37784ea291b70b26a148ca176a9dbe4333aea4db2319d,Risk & attribution
-config.json,,Resolved strategy settings for this exact run,5243,1842fd297ad94a77eea290c622bf0e2299a1912c251a676af025f91f6b420d92,Methodology & audit
-validation.json,,"Internal accounting, execution and constraint checks",970,a233d03f716b261392d0add4c3ae5f2deeb89cbde70e9ba67fa7527e0b0d7016,Methodology & audit
-provenance.json,,"Run identity, input checksums and measurement definitions",2989,381463bb28cc95333c6a3bd810da4d5b870827661b0892533e56d72fae706e9e,Methodology & audit
-backtest_report.html,,"Standalone performance report, ready to print or save as PDF",6803,9b4a1769f756d36e9b3848f4bba6958a425d8aba804bcd98f5d3145fdfbe45ae,Methodology & audit
-performance_summary.pdf,,One-page performance and methodology summary,62503,e1ed210fff5ebc2f9d9aaeeb6f84e03eef636cf63ab33cb404cf29810423d1f0,Methodology & audit
+name,rows,bytes,description,sha256,category
+return_distribution_daily.csv,792.0,139261,"Daily simulated gross expected returns and 95% expected shortfall, before and after trading",d2e6f1e5c7a5d11ecb57b3012ba737c6c9d5d86b3569df8f1767ffd19e76f360,Risk & attribution
+nav_daily.csv,792.0,385396,"Daily USD ledger, gross/net unit NAV and daily drawdowns",73998fbae557927f9ecbe0b09d5488e375614044e02f4f2be341fa42e4a62937,Portfolio records
+holdings_daily.csv,71260.0,13171209,Actual closing active holdings; signed fractions of NAV and USD notionals,448bc66a855077e542f7b129688b9c56544123fb08a02911cf1abf8c3f89cc46,Portfolio records
+holdings_monthly.csv,3330.0,615617,Actual holdings at each month's last valuation,8bb95904fee217d29873f4fc97e22995455cff9b6501065fcbffdbf31a16dd83,Portfolio records
+holdings_latest.csv,90.0,16643,Actual holdings at the last valuation,419da6e0be61b228c9fe1d583669fdc886ae8a1deec394651343f81f7a71b688,Portfolio records
+trades.csv,7687.0,1882017,"Executed fills; positive buys include short covers, negative sells include short openings",5f31e37260a775c76ba877e6db7995d6087fbc5714e39f0a2fcd73505292dc78,Portfolio records
+monthly_performance.csv,37.0,10572,"Compounded returns, month-end drawdowns, fees and traded-notional turnover",f56c9c7dea7a7c2c2c224e185506cf457cde9ae5c0f870113996093f3b824b23,Portfolio records
+targets.csv,142290.0,21329101,Dated model proposals and explicit execution targets; not actual holdings,743fc8f3d4ad6cc49982fb60140e22a20197481b62d743ccdee770f4ab626b46,Portfolio records
+cash_settlements.csv,2.0,125,"Corporate-action cash receipts; transfers of marked positions, not market trades",aa8ae9ebdde1df249017da23374b289d93edb6e0b923e28c4804691c37b3726e,Methodology & audit
+factor_source_periods.csv,2.0,194,Pinned factor source for each period of the continuous account,7c69aad40d858aaab389b95557fe171c53f0022fa0072d37f2f60508281e32b0,Risk & attribution
+decisions.csv,792.0,85802,Decision reasons and order counts,9e0839f009e3c0b60fdc9d04228df0d91b98fc3ce07bae1988e75b42bc15a67b,Portfolio records
+execution_events.csv,0.0,68,"Execution locks, missing fills and replacements",09b277c5cf7744c152da0b6a7bb274df3376378dbcfcbcb1c8d229b8d43bb496,Portfolio records
+factor_exposures_daily.csv,792.0,454735,Actual weights under latest available fitted betas,49ec8706e5cd80d74dc6b5958721a9c933a1fbe83c38d84d896598830476e478,Risk & attribution
+factor_exposures_target.csv,19008.0,2573835,Model target exposures and declared tolerances,b065a1cf04c92766f3afa39031caaf93e9136fd376d3a9f0ce82088de1c4d220,Risk & attribution
+pnl_daily.csv,792.0,75373,Daily gross P&L by leg and costs,ddf07e342ef121391c4b9612d768aa5b2de3b726c1099b85d4ceddf5b2efb787,Risk & attribution
+pnl_by_security.csv,334.0,21895,Security-level attribution over the run,fb6372e23cbc3358d56f05b5ad655dc788b36a8f6f3c6b00de1dd7f2afc7200f,Risk & attribution
+pnl_monthly_by_security.csv,37.0,104880,Security-level monthly attribution,a6773cf73313670f8394f174844185eb252383ca2516a16e65d6d08602fd9877,Risk & attribution
+leg_returns_daily.csv,2376.0,388711,Daily leg returns and NAV contributions,16634464a621f39720d04a095de442214f3b39a274c7faef4760bdcfc2d8641c,Risk & attribution
+leg_returns_monthly.csv,111.0,20059,Monthly leg returns and linked NAV contributions,7b4ae8578d777a3d4be87414bf9a4b3f8bf3263c93e9a47bd37c5b00a7bfc5ca,Risk & attribution
+leg_summary.csv,3.0,564,Full-period leg returns and linked contributions,0fe745fc4ed7b7034c0b059f98961f51e908c78910b976c72eae822c8353b732,Risk & attribution
+risk_summary.csv,121.0,4502,Flattened risk_summary; rates and weights use decimal fractions,0de50856d9f209f0ae32e818b42672a4c189b028a9a7231fb8e9f454474c3f90,Risk & attribution
+config.csv,175.0,7424,Flattened config; rates and weights use decimal fractions,b3c58d66ac8b15fb941257dd998e1a6fb89214d9e2faacb08e45f98dfdc41bf6,Methodology & audit
+validation.csv,17.0,1108,Flattened validation; rates and weights use decimal fractions,ec3ecd77fd82fc75f9b0b35a5566970e88f7bcf0fa2d59db6d1c78f684d01492,Methodology & audit
+accounting_metadata.csv,11.0,353,Flattened accounting_metadata; rates and weights use decimal fractions,6a60144001fd5d0acb551f50d00a520bf9c53ac38cc2e13e32755a295ac89545,Methodology & audit
+reproduction.csv,9.0,348,Flattened reproduction; rates and weights use decimal fractions,d010c29f07825f8fc627eef5af72e833613c42c7b96d03efa479c82105768fba,Methodology & audit
+factor_fallback_verification.csv,3.0,166,Flattened factor_fallback_verification; rates and weights use decimal fractions,13fd41ec29f44baf0ff37784ea291b70b26a148ca176a9dbe4333aea4db2319d,Risk & attribution
+config.json,,5243,Resolved strategy settings for this exact run,1842fd297ad94a77eea290c622bf0e2299a1912c251a676af025f91f6b420d92,Methodology & audit
+validation.json,,970,"Internal accounting, execution and constraint checks",a233d03f716b261392d0add4c3ae5f2deeb89cbde70e9ba67fa7527e0b0d7016,Methodology & audit
+provenance.json,,2989,"Run identity, input checksums and measurement definitions",381463bb28cc95333c6a3bd810da4d5b870827661b0892533e56d72fae706e9e,Methodology & audit
+backtest_report.html,,6803,"Standalone performance report, ready to print or save as PDF",9b4a1769f756d36e9b3848f4bba6958a425d8aba804bcd98f5d3145fdfbe45ae,Methodology & audit
+performance_summary.pdf,,62503,One-page performance and methodology summary,e1ed210fff5ebc2f9d9aaeeb6f84e03eef636cf63ab33cb404cf29810423d1f0,Methodology & audit

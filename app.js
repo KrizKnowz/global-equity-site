@@ -12,7 +12,7 @@ const date = value => new Date(`${value.slice(0,10)}T00:00:00Z`).toLocaleDateStr
 const tone = value => value < 0 ? "negative" : "positive";
 const option = (v, label = v, selected = false) => `<option value="${esc(v)}"${selected ? " selected" : ""}>${esc(label)}</option>`;
 const download = (file, text = "Download CSV ↓", cls = "button") => `<a class="${cls}" href="files/${encodeURIComponent(file)}" download>${esc(text)}</a>`;
-const names = {overview:"Overview", performance:"Monthly performance", holdings:"Holdings", trades:"Trades", risk:"Risk & methodology", files:"Files & downloads"};
+const names = {overview:"Overview", performance:"Monthly performance", distribution:"Return distribution", holdings:"Holdings", trades:"Trades", risk:"Risk & methodology", files:"Files & downloads"};
 const state = {range:"ALL", view:"overview", month:null};
 let S, P, R, FILES;
 const cache = {};
@@ -176,8 +176,8 @@ async function route() {
   const requested=location.hash.slice(1), view=Object.hasOwn(names,requested) ? requested : "overview";
   state.view=view;$("#chart-tooltip").hidden=true;$("#breadcrumb").textContent=names[view];
   $$('[data-view]').forEach(a=>{if(a.dataset.view===view)a.setAttribute("aria-current","page");else a.removeAttribute("aria-current");});
-  if(view==="holdings"||view==="trades")$("#main").innerHTML='<div class="loading">Loading portfolio records…</div>';
-  await ({overview,performance,holdings,trades,risk,files}[view])(view);
+  if(["holdings","trades","distribution"].includes(view))$("#main").innerHTML='<div class="loading">Loading portfolio records…</div>';
+  await ({overview,performance,distribution,holdings,trades,risk,files}[view])(view);
 }
 function showError(error) {
   $("#main").innerHTML=`<div class="error"><h1>The records could not be loaded.</h1><p>${esc(error.message)}</p><p>Serve the built website with <code>python3 scripts/preview_backtest_site.py</code>, or refresh the published site.</p></div>`;
