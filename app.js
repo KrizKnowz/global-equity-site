@@ -16,8 +16,9 @@ const names = {overview:"Overview", performance:"Monthly performance", distribut
 const state = {range:"ALL", view:"overview", month:null};
 let S, P, R, FILES;
 const cache = {};
+const SITE_BUILD = document.querySelector('meta[name="portfolio-build"]')?.content || "local";
 async function load(name) {
-  if (!cache[name]) cache[name] = fetch(`data/${name}.json`).then(response => {
+  if (!cache[name]) cache[name] = fetch(`data/${name}.json?v=${encodeURIComponent(SITE_BUILD)}`, {cache:"no-store"}).then(response => {
     if (!response.ok) throw new Error(`Could not load ${name} (${response.status})`);
     return response.json();
   });
