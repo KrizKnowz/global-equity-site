@@ -1,5 +1,5 @@
 name,rows,bytes,description,sha256,category
-return_distribution_daily.csv,792.0,139261,"Daily simulated gross expected returns and 95% expected shortfall, before and after trading",d2e6f1e5c7a5d11ecb57b3012ba737c6c9d5d86b3569df8f1767ffd19e76f360,Risk & attribution
+return_distribution_daily.csv,792.0,191754,"Daily return distributions, expected shortfall and realized rebalance comparisons; before costs",47b387fe67078bae2f4f5a537191a4b67945e0ad9dfe158d68f0f9d32749bad5,Risk & attribution
 nav_daily.csv,792.0,385396,"Daily USD ledger, gross/net unit NAV and daily drawdowns",73998fbae557927f9ecbe0b09d5488e375614044e02f4f2be341fa42e4a62937,Portfolio records
 holdings_daily.csv,71260.0,13171209,Actual closing active holdings; signed fractions of NAV and USD notionals,448bc66a855077e542f7b129688b9c56544123fb08a02911cf1abf8c3f89cc46,Portfolio records
 holdings_monthly.csv,3330.0,615617,Actual holdings at each month's last valuation,8bb95904fee217d29873f4fc97e22995455cff9b6501065fcbffdbf31a16dd83,Portfolio records

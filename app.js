@@ -12,7 +12,7 @@ const date = value => new Date(`${value.slice(0,10)}T00:00:00Z`).toLocaleDateStr
 const tone = value => value < 0 ? "negative" : "positive";
 const option = (v, label = v, selected = false) => `<option value="${esc(v)}"${selected ? " selected" : ""}>${esc(label)}</option>`;
 const download = (file, text = "Download CSV ↓", cls = "button") => `<a class="${cls}" href="files/${encodeURIComponent(file)}" download>${esc(text)}</a>`;
-const names = {overview:"Overview", performance:"Monthly performance", distribution:"Return distribution", holdings:"Holdings", trades:"Trades", risk:"Risk & methodology", files:"Files & downloads"};
+const names = {overview:"Overview", performance:"Monthly performance", distribution:"Distribution", holdings:"Holdings", trades:"Trades", risk:"Risk & methodology", files:"Files & downloads"};
 const state = {range:"ALL", view:"overview", month:null};
 let S, P, R, FILES;
 const cache = {};
