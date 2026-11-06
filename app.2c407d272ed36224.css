@@ -18,3 +18,10 @@
 .replay-ticket-form{grid-template-columns:1fr 1fr auto}.replay-ticket-details{grid-column:1/-1}.replay-ticket-fields{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;margin-top:14px}
 @media(max-width:1100px){.replay-ticket-form{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:600px){.replay-ticket-form{grid-template-columns:1fr}}
 @media(max-width:1100px){.replay-ticket-fields{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:600px){.replay-ticket-fields{grid-template-columns:1fr}}
+
+/* Explicit before/after values with a plain-language explanation of the change. */
+.distribution-metric{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);align-items:center}
+.distribution-comparison{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:12px}
+.distribution-comparison strong{margin:6px 0}.distribution-metric strong.before-value{color:#71869c}
+.distribution-metric .shift-result .caption{display:block;max-width:210px;margin-left:auto}
+@media(max-width:650px){.distribution-metric{grid-template-columns:1fr}.distribution-metric .shift-result{text-align:left;border-top:1px solid var(--line);padding-top:12px}.distribution-metric .shift-result .caption{max-width:none;margin-left:0}}
