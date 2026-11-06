@@ -1,6 +1,7 @@
 /* Paired gross-return scenarios, from the same saved account as the main site. */
 "use strict";
 const distributionBP = value => `${value > 0 ? "+" : value < 0 ? "−" : ""}${Math.abs(value * 10000).toFixed(2)} bp`;
+const distributionPeriod = row => ({63:"3-month",126:"6-month"}[row.horizon_sessions] || "Next-session");
 function shiftLabel(change, lowerIsBetter = false) {
   if (Math.abs(change) <= 1e-12) return {tone:"flat", text:"Unchanged", direction:"→"};
   const better = lowerIsBetter ? change < 0 : change > 0;
@@ -32,12 +33,17 @@ function distributionChart(row, loss = false) {
     const path=grid.map((v,i)=>`${i ? "L" : "M"}${x(v).toFixed(2)},${y(values[i]).toFixed(2)}`).join(" ");
     svg+=`<path d="${path} L${x(grid.at(-1))},${bottomY} L${x(grid[0])},${bottomY} Z" fill="${stroke}" opacity=".05"/><path d="${path}" fill="none" stroke="${stroke}" stroke-width="2.4"/><line x1="${x(mean)}" x2="${x(mean)}" y1="${top}" y2="${bottomY}" stroke="${stroke}" stroke-dasharray="4 4"/>`;
   }
-  svg+=`<text x="${(W+left-right)/2}" y="${H-9}" text-anchor="middle">${loss ? "Potential next-session loss (% of NAV)" : "Next-session return (% of NAV)"}</text></svg>`;
+  svg+=`<text x="${(W+left-right)/2}" y="${H-9}" text-anchor="middle">${distributionPeriod(row)} ${loss ? "potential loss" : "return"} (% of NAV)</text></svg>`;
   return `<div class="chart distribution-chart">${svg}</div>`;
 }
 function distributionMetric(label, before, after, lowerIsBetter) {
   const shift=shiftLabel(after-before,lowerIsBetter);
   return `<div class="distribution-metric ${shift.tone}"><div><span class="metric-label">${label}</span><strong>${pct(after,3)}</strong><span class="caption">Before ${pct(before,3)} <span aria-hidden="true">→</span> After ${pct(after,3)}</span></div><div class="shift-result"><span class="shift-badge ${shift.tone}">${shift.text}</span><strong>${shift.direction} ${distributionBP(after-before)}</strong><span class="caption">After minus before</span></div></div>`;
+}
+function distributionHistory(data, current) {
+  const period=distributionPeriod(current).toLowerCase();
+  return `<div class="distribution-history"><div><span class="eyebrow">Across the saved record</span><h2>Return and risk, viewed together.</h2><p>Both portfolios face the same ${num(data.simulations)} simulated market paths on each date. The selected ${period} horizon shows the trade-off between expected return and potential loss.</p></div><div class="history-stat"><strong>${pct(current.risk_improvement_rate,1)}</strong><span>of rebalance dates have lower ${period} expected shortfall</span></div><div class="history-stat"><strong>${pct(data.rebalance_outperformance_rate,0)}</strong><span>Rebalances outperforming no trade</span><small class="caption">Observed next-session returns · before costs${current.horizon_sessions>1 ? " · not a multi-month success rate" : ""}</small></div></div>`
+    +`<p class="note">Across ${num(current.rebalance_dates)} rebalance dates, average ${period} expected shortfall changes from ${pct(current.mean_es_before,4)} to ${pct(current.mean_es_after,4)}. Initial allocation and no-trade dates are excluded. The observed next-session comparison remains ${num(data.outperforming_rebalances)} wins out of ${num(data.scored_rebalances)} scored rebalances.</p>`;
 }
 async function distribution(viewToken) {
   if(globalThis.executionWorkspace && S) $("#asof").textContent=`Backtest through ${date(S.last_valuation)}`;
@@ -47,18 +53,21 @@ async function distribution(viewToken) {
     return;
   }
   const rows=data.rows;
+  const horizons={1:data,...data.horizons};
+  let horizon=Object.hasOwn(horizons,state.distributionHorizon) ? state.distributionHorizon : "1";
   let index=rows.findIndex(r=>r.date===state.distributionDate);
   if(index<0) index=rows.length-1;
-  const controls=`<div class="distribution-controls"><div class="actions"><button class="button" id="distribution-prev" aria-label="Previous valuation day">←</button><label>Valuation date<select id="distribution-date">${rows.map((r,i)=>option(i,date(r.date))).join("")}</select></label><button class="button" id="distribution-next" aria-label="Next valuation day">→</button></div><span id="distribution-status" class="badge"></span></div><div class="distribution-timeline"><span>${date(rows[0].date)}</span><input id="distribution-slider" type="range" min="0" max="${rows.length-1}" step="1" aria-label="Select a valuation day"><span>${date(rows.at(-1).date)}</span></div>`;
-  $("#main").innerHTML=heading("Distribution","How each rebalance changes the portfolio’s next-session outlook.",download("return_distribution_daily.csv","Daily comparisons ↓")+'<a class="button" id="distribution-execution" href="#execution">View execution ↗</a>')
-    +panel("Explore a trading day","Compare the executed portfolio with keeping the holdings immediately before that day’s trades.",controls)
+  const controls=`<div class="distribution-controls"><div class="actions"><button class="button" id="distribution-prev" aria-label="Previous valuation day">←</button><label>Valuation date<select id="distribution-date">${rows.map((r,i)=>option(i,date(r.date))).join("")}</select></label><button class="button" id="distribution-next" aria-label="Next valuation day">→</button><label>Projection horizon<select id="distribution-horizon">${Object.entries(horizons).map(([key,value])=>option(key,value.label || "Next session")).join("")}</select></label></div><span id="distribution-status" class="badge"></span></div><div class="distribution-timeline"><span>${date(rows[0].date)}</span><input id="distribution-slider" type="range" min="0" max="${rows.length-1}" step="1" aria-label="Select a valuation day"><span>${date(rows.at(-1).date)}</span></div>`;
+  $("#main").innerHTML=heading("Distribution","How each rebalance changes the portfolio’s return and risk outlook.",download("return_distribution_daily.csv","Daily comparisons ↓")+(data.horizons ? download("return_distribution_horizons.csv","3 & 6 months ↓") : "")+'<a class="button" id="distribution-execution" href="#execution">View execution ↗</a>')
+    +panel("Explore a trading day","Compare the portfolios before and after that day’s trades over your chosen horizon.",controls)
     +`<div id="distribution-selected" aria-live="polite" aria-atomic="true"></div>`
-    +`<div class="distribution-history"><div><span class="eyebrow">Across the saved record</span><h2>A measured improvement in downside risk.</h2><p>Both portfolios face the same ${num(data.simulations)} simulated market scenarios on each date. Daily comparisons show the trade-off between expected return and potential loss.</p></div><div class="history-stat"><strong>${pct(data.risk_improvement_rate,1)}</strong><span>of rebalance dates have lower expected shortfall</span></div><div class="history-stat"><strong>${pct(data.rebalance_outperformance_rate,0)}</strong><span>Rebalances outperforming no trade</span><small class="caption">Observed next-session returns · before costs</small></div></div>`
-    +`<p class="note">Across ${num(data.rebalance_dates)} rebalance dates, average one-session expected shortfall changes from ${pct(data.mean_es_before,4)} to ${pct(data.mean_es_after,4)}. The average reduction is modest. Initial allocation and no-trade dates are excluded. Outperformance uses ${num(data.scored_rebalances)} scored rebalances; ${num(data.outperforming_rebalances)} beat keeping the pre-trade holdings for the following session.</p>`
-    +`<details class="distribution-method"><summary>How to read these simulations</summary><p class="note">The grey curve keeps the holdings before today’s trades; the green curve uses the executed closing portfolio. A mean moving right indicates higher expected return. An expected-shortfall marker moving left indicates a smaller average loss in the worst 5% of scenarios. Curves can cross; one improved measure does not mean every outcome improves.</p><p class="note">One following valuation session, using up to ${data.lookback} trailing observations and archived factor estimates available on the selected date. Returns and risk measures exclude explicit trading and borrowing fees, and each book uses its own NAV. Density curves use identical smoothing over the central 99.8% range; the loss curves show empirical exceedance probabilities. Expected shortfall uses all unsmoothed scenarios.</p><p class="note">The outperformance percentage compares realized next-session returns before costs after rebalancing versus skipping that day’s trades. It excludes ties from the win count and excludes the final date, which has no following outcome. It is separate from the simulated expected-return shift and the estimated risk reduction. Simulations are retrospective model estimates, not guarantees. The optimizer has a longer, 21-session objective. As a separate calibration check, realized losses exceeded the model’s 95% loss threshold on ${pct(data.var_exceedance_rate,1)} of scored rebalance dates, versus a nominal 5%. Saved backtest NAV is unchanged.</p></details>`;
+    +`<div id="distribution-history">${distributionHistory(data,horizons[horizon])}</div>`
+    +`<details class="distribution-method"><summary>How to read these simulations</summary><p class="note">The grey curve uses the portfolio before today’s trades; the green curve uses the executed closing portfolio. A mean moving right indicates higher expected return. An expected-shortfall marker moving left indicates a smaller average loss in the worst 5% of scenarios. Curves can cross; one improved measure does not mean every outcome improves.</p><p class="note">Projections use up to ${data.lookback} trailing observations and archived factor estimates available on the selected date. Three months means 63 valuation sessions; six months means 126. Longer horizons compound independently resampled daily shocks, with identical paths for both books. Portfolio weights and model means stay constant. These are conditional projections of today’s allocation, not forecasts of future strategy rebalances or fixed-share buy-and-hold returns. Serial dependence, regime changes and uncertainty in model means are not simulated.</p><p class="note">Returns and risk measures exclude trading and borrowing fees, and each book uses its own NAV. Density curves use identical smoothing over the central 99.8% range; loss curves show empirical exceedance probabilities. Expected shortfall uses all unsmoothed outcomes at the selected horizon; it is not annualized.</p><p class="note">The outperformance percentage always compares realized next-session returns before costs after rebalancing versus skipping that day’s trades. It excludes ties from the win count and excludes the final date, which has no following outcome. It is separate from the simulated expected-return shift and estimated risk reduction. Simulations are retrospective model estimates, not guarantees. Saved backtest NAV is unchanged.</p></details>`;
   function render(next) {
     index=Math.max(0,Math.min(rows.length-1,Number(next)));
-    const row=rows[index]; state.distributionDate=row.date;
+    const current=horizons[horizon],row=current.rows[index]; state.distributionDate=row.date;
+    state.distributionHorizon=horizon;$("#distribution-horizon").value=horizon;
+    $("#distribution-history").innerHTML=distributionHistory(data,current);
     state.executionDate=row.date;$('#distribution-execution').href=`#execution?date=${row.date}`;
     $("#distribution-date").value=String(index);$("#distribution-slider").value=String(index);
     $("#distribution-slider").setAttribute("aria-valuetext",date(row.date));
@@ -66,10 +75,12 @@ async function distribution(viewToken) {
     $("#distribution-status").textContent=row.initial_allocation ? "Initial allocation" : row.rebalanced ? "Rebalanced" : "No trades · holdings unchanged";
     if(!row.curves){$("#distribution-selected").innerHTML=`<div class="note-box">${date(row.date)} · A distribution is unavailable because this date has insufficient simulation inputs.</div>`;return;}
     const legend=`<span class="legend"><span><i class="gross"></i>Before rebalancing</span><span><i></i>After rebalancing</span></span>`;
-    const returns=panel("Return distribution",`${date(row.date)} · A rightward mean shift is an improvement`,distributionMetric("Expected next-session return",row.mean_before_gross,row.mean_after_gross,false)+distributionChart(row)+`<div class="chart-footer">${legend}<span>Dashed lines: expected returns</span></div>`,"",false);
-    const risk=panel("Downside risk · 95% expected shortfall","Average loss in the worst 5% of simulated outcomes",distributionMetric("Expected shortfall",row.gross_es_95_before,row.gross_es_95_after,true)+distributionChart(row,true)+`<div class="chart-footer">${legend}<span>Dashed lines: expected shortfall · lower is better</span></div>`,"",false);
-    $("#distribution-selected").innerHTML=`<div class="distribution-panels">${returns}${risk}</div>`;
+    const period=distributionPeriod(row),note=current.horizon_sessions>1 ? `<p class="note">${current.label} · ${current.horizon_sessions} sessions · Compounded projection at constant weights, before costs.</p>` : "";
+    const returns=panel("Return distribution",`${date(row.date)} · A rightward mean shift is an improvement`,distributionMetric(`Expected ${period.toLowerCase()} return`,row.mean_before_gross,row.mean_after_gross,false)+distributionChart(row)+`<div class="chart-footer">${legend}<span>Dashed lines: expected returns</span></div>`,"",false);
+    const risk=panel("Downside risk · 95% expected shortfall",`${period} average loss in the worst 5% of simulated outcomes`,distributionMetric("Expected shortfall",row.gross_es_95_before,row.gross_es_95_after,true)+distributionChart(row,true)+`<div class="chart-footer">${legend}<span>Dashed lines: expected shortfall · lower is better</span></div>`,"",false);
+    $("#distribution-selected").innerHTML=note+`<div class="distribution-panels">${returns}${risk}</div>`;
   }
+  $("#distribution-horizon").onchange=event=>{horizon=event.target.value;render(index);};
   $("#distribution-date").onchange=event=>render(event.target.value);
   $("#distribution-slider").oninput=event=>render(event.target.value);
   $("#distribution-prev").onclick=()=>render(index-1);$("#distribution-next").onclick=()=>render(index+1);
