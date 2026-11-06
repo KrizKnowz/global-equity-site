@@ -40,6 +40,7 @@ function distributionMetric(label, before, after, lowerIsBetter) {
   return `<div class="distribution-metric ${shift.tone}"><div><span class="metric-label">${label}</span><strong>${pct(after,3)}</strong><span class="caption">Before ${pct(before,3)} <span aria-hidden="true">→</span> After ${pct(after,3)}</span></div><div class="shift-result"><span class="shift-badge ${shift.tone}">${shift.text}</span><strong>${shift.direction} ${distributionBP(after-before)}</strong><span class="caption">After minus before</span></div></div>`;
 }
 async function distribution(viewToken) {
+  if(globalThis.executionWorkspace && S) $("#asof").textContent=`Backtest through ${date(S.last_valuation)}`;
   const data=await load("distribution"); if(state.view!==viewToken) return;
   if(!data.available){
     $("#main").innerHTML=heading("Distribution","Daily before-and-after portfolio simulations.")+`<div class="note-box">No matching simulation is available for this saved account.</div>`;
@@ -49,7 +50,7 @@ async function distribution(viewToken) {
   let index=rows.findIndex(r=>r.date===state.distributionDate);
   if(index<0) index=rows.length-1;
   const controls=`<div class="distribution-controls"><div class="actions"><button class="button" id="distribution-prev" aria-label="Previous valuation day">←</button><label>Valuation date<select id="distribution-date">${rows.map((r,i)=>option(i,date(r.date))).join("")}</select></label><button class="button" id="distribution-next" aria-label="Next valuation day">→</button></div><span id="distribution-status" class="badge"></span></div><div class="distribution-timeline"><span>${date(rows[0].date)}</span><input id="distribution-slider" type="range" min="0" max="${rows.length-1}" step="1" aria-label="Select a valuation day"><span>${date(rows.at(-1).date)}</span></div>`;
-  $("#main").innerHTML=heading("Distribution","How each rebalance changes the portfolio’s next-session outlook.",download("return_distribution_daily.csv","Daily comparisons ↓"))
+  $("#main").innerHTML=heading("Distribution","How each rebalance changes the portfolio’s next-session outlook.",download("return_distribution_daily.csv","Daily comparisons ↓")+'<a class="button" id="distribution-execution" href="#execution">View execution ↗</a>')
     +panel("Explore a trading day","Compare the executed portfolio with keeping the holdings immediately before that day’s trades.",controls)
     +`<div id="distribution-selected" aria-live="polite" aria-atomic="true"></div>`
     +`<div class="distribution-history"><div><span class="eyebrow">Across the saved record</span><h2>A measured improvement in downside risk.</h2><p>Both portfolios face the same ${num(data.simulations)} simulated market scenarios on each date. Daily comparisons show the trade-off between expected return and potential loss.</p></div><div class="history-stat"><strong>${pct(data.risk_improvement_rate,1)}</strong><span>of rebalance dates have lower expected shortfall</span></div><div class="history-stat"><strong>${pct(data.rebalance_outperformance_rate,0)}</strong><span>Rebalances outperforming no trade</span><small class="caption">Observed next-session returns · before costs</small></div></div>`
@@ -58,6 +59,7 @@ async function distribution(viewToken) {
   function render(next) {
     index=Math.max(0,Math.min(rows.length-1,Number(next)));
     const row=rows[index]; state.distributionDate=row.date;
+    state.executionDate=row.date;$('#distribution-execution').href=`#execution?date=${row.date}`;
     $("#distribution-date").value=String(index);$("#distribution-slider").value=String(index);
     $("#distribution-slider").setAttribute("aria-valuetext",date(row.date));
     $("#distribution-prev").disabled=index===0;$("#distribution-next").disabled=index===rows.length-1;

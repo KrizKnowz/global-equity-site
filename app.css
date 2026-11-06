@@ -10,3 +10,11 @@
 @media(max-width:1250px){.distribution-panels{grid-template-columns:1fr;gap:0}.distribution-panels .panel-head{min-height:0}.distribution-metric{padding:15px 20px}.distribution-chart{max-width:950px;margin:auto}.distribution-history{gap:18px;padding:22px}.history-stat{padding-left:18px}}
 @media(max-width:650px){.distribution-history{grid-template-columns:1fr 1fr;gap:18px}.distribution-history>div:first-child{grid-column:1/-1}.history-stat{padding-left:0;border:0}.history-stat strong{font-size:30px}.distribution-timeline{gap:8px;font-size:9px}.distribution-metric{margin-inline:16px;padding:14px 12px}.distribution-metric strong{font-size:23px}.shift-result strong{font-size:16px}.distribution-metric .caption{font-size:9px}.distribution-controls .badge{font-size:9px}.distribution-panels .legend{flex-wrap:wrap}}
 @media(max-width:650px){.distribution-chart text{font-size:23px}}
+.replay-stage{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding-top:22px;margin-top:20px;border-top:1px solid var(--line)}
+.table-wrap{max-width:100%;overflow:auto}
+.replay-balances{display:flex;gap:28px;flex-wrap:wrap;color:var(--muted);font-size:12px}.replay-balances strong{display:block;color:var(--ink);font-size:19px;margin-top:8px}
+#replay-orders table{min-width:900px}#replay-holdings details{margin-top:22px}#replay-holdings summary{cursor:pointer;font-size:12px;padding:8px 0}
+.replay-ticket-form{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;align-items:end;margin:18px 0}.replay-ticket-form label{display:grid;gap:7px;font-size:12px;color:var(--muted)}.replay-ticket-form input{min-width:0;width:100%;font:inherit;padding:10px;border:1px solid var(--line);border-radius:6px}.replay-ticket-form button{min-height:39px}
+.replay-ticket-form{grid-template-columns:1fr 1fr auto}.replay-ticket-details{grid-column:1/-1}.replay-ticket-fields{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;margin-top:14px}
+@media(max-width:1100px){.replay-ticket-form{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:600px){.replay-ticket-form{grid-template-columns:1fr}}
+@media(max-width:1100px){.replay-ticket-fields{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:600px){.replay-ticket-fields{grid-template-columns:1fr}}

@@ -25,6 +25,7 @@ validation.csv,17.0,1108,Flattened validation; rates and weights use decimal fra
 accounting_metadata.csv,11.0,353,Flattened accounting_metadata; rates and weights use decimal fractions,6a60144001fd5d0acb551f50d00a520bf9c53ac38cc2e13e32755a295ac89545,Methodology & audit
 reproduction.csv,9.0,348,Flattened reproduction; rates and weights use decimal fractions,d010c29f07825f8fc627eef5af72e833613c42c7b96d03efa479c82105768fba,Methodology & audit
 factor_fallback_verification.csv,3.0,166,Flattened factor_fallback_verification; rates and weights use decimal fractions,13fd41ec29f44baf0ff37784ea291b70b26a148ca176a9dbe4333aea4db2319d,Risk & attribution
+execution_plans_daily.csv,7687.0,2375247,Automatic fractional share and limit plans at saved prices and FX; reconciled to backtest trade amounts,77ca1ef34e010b06e3592df9bb7f13c046b3075952d32f2fc0231e4bb4e41ffe,Portfolio records
 config.json,,5243,Resolved strategy settings for this exact run,1842fd297ad94a77eea290c622bf0e2299a1912c251a676af025f91f6b420d92,Methodology & audit
 validation.json,,970,"Internal accounting, execution and constraint checks",a233d03f716b261392d0add4c3ae5f2deeb89cbde70e9ba67fa7527e0b0d7016,Methodology & audit
 provenance.json,,2989,"Run identity, input checksums and measurement definitions",381463bb28cc95333c6a3bd810da4d5b870827661b0892533e56d72fae706e9e,Methodology & audit
