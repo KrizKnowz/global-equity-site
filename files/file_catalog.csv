@@ -1,6 +1,6 @@
 name,rows,bytes,description,sha256,category
-return_distribution_daily.csv,792.0,191754,"Daily return distributions, expected shortfall and realized rebalance comparisons; before costs",47b387fe67078bae2f4f5a537191a4b67945e0ad9dfe158d68f0f9d32749bad5,Risk & attribution
-return_distribution_horizons.csv,1584.0,512724,3- and 6-month conditional return and expected-shortfall projections at constant weights; before costs,020b02f7b3202566ff4eb0586232e15d93f575e83896170ee9e92f3cdf3c7ffb,Risk & attribution
+return_distribution_daily.csv,792.0,219166,"Daily return distributions, expected shortfall and realized rebalance comparisons; before costs",46910ebf7e26f1809baee7cd34ea276ad79397e6104a53cea0e6ee6b8ec501fe,Risk & attribution
+return_distribution_horizons.csv,1584.0,514310,3- and 6-month conditional return and expected-shortfall projections at constant weights; before costs,c3aec4571a6b95234075470ededc5ecdf07d30dee222cbecc08d725852d172de,Risk & attribution
 nav_daily.csv,792.0,385396,"Daily USD ledger, gross/net unit NAV and daily drawdowns",73998fbae557927f9ecbe0b09d5488e375614044e02f4f2be341fa42e4a62937,Portfolio records
 holdings_daily.csv,71260.0,13171209,Actual closing active holdings; signed fractions of NAV and USD notionals,448bc66a855077e542f7b129688b9c56544123fb08a02911cf1abf8c3f89cc46,Portfolio records
 holdings_monthly.csv,3330.0,615617,Actual holdings at each month's last valuation,8bb95904fee217d29873f4fc97e22995455cff9b6501065fcbffdbf31a16dd83,Portfolio records
@@ -26,9 +26,9 @@ validation.csv,17.0,1108,Flattened validation; rates and weights use decimal fra
 accounting_metadata.csv,11.0,353,Flattened accounting_metadata; rates and weights use decimal fractions,6a60144001fd5d0acb551f50d00a520bf9c53ac38cc2e13e32755a295ac89545,Methodology & audit
 reproduction.csv,9.0,348,Flattened reproduction; rates and weights use decimal fractions,d010c29f07825f8fc627eef5af72e833613c42c7b96d03efa479c82105768fba,Methodology & audit
 factor_fallback_verification.csv,3.0,166,Flattened factor_fallback_verification; rates and weights use decimal fractions,13fd41ec29f44baf0ff37784ea291b70b26a148ca176a9dbe4333aea4db2319d,Risk & attribution
-execution_plans_daily.csv,7687.0,2375247,Automatic fractional share and limit plans at saved prices and FX; reconciled to backtest trade amounts,77ca1ef34e010b06e3592df9bb7f13c046b3075952d32f2fc0231e4bb4e41ffe,Portfolio records
-config.json,,5243,Resolved strategy settings for this exact run,1842fd297ad94a77eea290c622bf0e2299a1912c251a676af025f91f6b420d92,Methodology & audit
-validation.json,,970,"Internal accounting, execution and constraint checks",a233d03f716b261392d0add4c3ae5f2deeb89cbde70e9ba67fa7527e0b0d7016,Methodology & audit
-provenance.json,,2989,"Run identity, input checksums and measurement definitions",381463bb28cc95333c6a3bd810da4d5b870827661b0892533e56d72fae706e9e,Methodology & audit
-backtest_report.html,,6803,"Standalone performance report, ready to print or save as PDF",9b4a1769f756d36e9b3848f4bba6958a425d8aba804bcd98f5d3145fdfbe45ae,Methodology & audit
+execution_plans_daily.csv,7687.0,2382935,Automatic fractional share and limit plans at saved prices and FX; reconciled to backtest trade amounts,1db3aaf2adf19d223e8274ed28a961e503dd4db8814cc7272c60528bb00cf417,Portfolio records
+config.json,,5244,Resolved strategy settings for this exact run,de65914e923469773ea3c4ec69483f7dcb336fe734c31cfbc59f3de220bd9c09,Methodology & audit
+validation.json,,971,"Internal accounting, execution and constraint checks",920982fda6845d34c207b80709cef777079ed3836381a0f1d48cde6435208435,Methodology & audit
+provenance.json,,2990,"Run identity, input checksums and measurement definitions",45c7b3a1fa8c3a3d8b82205d8f0489a3d300e7483cf7a98db47c63001993f7e0,Methodology & audit
+backtest_report.html,,6803,"Standalone performance report, ready to print or save as PDF",8dbdfb9f389f4df0d9f0e74125eab7af724a2007974969e5232bcf0eb8cfee46,Methodology & audit
 performance_summary.pdf,,62503,One-page performance and methodology summary,e1ed210fff5ebc2f9d9aaeeb6f84e03eef636cf63ab33cb404cf29810423d1f0,Methodology & audit
