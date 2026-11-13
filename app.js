@@ -19,6 +19,10 @@ const cache = {};
 const SITE_BUILD = document.querySelector('meta[name="portfolio-build"]')?.content || "local";
 async function load(name) {
   if (!cache[name]) cache[name] = fetch(`data/${name}.json?v=${encodeURIComponent(SITE_BUILD)}`, {cache:"no-store"}).then(response => {
+    if (response.status === 401) {
+      location.replace(`/login?next=${encodeURIComponent(location.pathname + location.hash)}`);
+      throw new Error("Please sign in to continue.");
+    }
     if (!response.ok) throw new Error(`Could not load ${name} (${response.status})`);
     return response.json();
   });
