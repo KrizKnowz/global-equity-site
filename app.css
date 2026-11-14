@@ -24,4 +24,5 @@
 .distribution-comparison{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:12px}
 .distribution-comparison strong{margin:6px 0}.distribution-metric strong.before-value{color:#71869c}
 .distribution-metric .shift-result .caption{display:block;max-width:210px;margin-left:auto}
+.panel[id]{scroll-margin-top:24px}
 @media(max-width:650px){.distribution-metric{grid-template-columns:1fr}.distribution-metric .shift-result{text-align:left;border-top:1px solid var(--line);padding-top:12px}.distribution-metric .shift-result .caption{max-width:none;margin-left:0}}

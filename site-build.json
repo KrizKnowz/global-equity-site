@@ -1,10 +1,10 @@
 {
   "run_id": "20261018T022603497994Z_standard_202310_202610",
   "public_access": true,
-  "client_version": "11647f1a9e791fc1",
-  "built_at": "2026-11-13T04:56:43.774085+00:00",
+  "client_version": "dad75e0eae25038a",
+  "built_at": "2026-11-14T22:23:55.156441+00:00",
   "file_count": 54,
-  "total_bytes": 78005643,
+  "total_bytes": 78007629,
   "input_files": {
     "securities.csv": {
       "sha256": "19262c7056d039237e340116a4569da043771fee03b3f30c031101ba02c635d0",
@@ -42,9 +42,8 @@
   "net_cagr": 0.17263929022033442,
   "csv_export_reconciled": true,
   "file_sha256": {
-    "app.2c407d272ed36224.css": "2c407d272ed36224e289a6fd0aaa7ef429adb6b37ae62c77eacba12d0899cc9c",
-    "app.css": "2c407d272ed36224e289a6fd0aaa7ef429adb6b37ae62c77eacba12d0899cc9c",
-    "app.js": "1cc92b8341cac83457d98fcdf0b0e506524b4c8e9ddd99edf8ea20cd98a10d0e",
+    "app.css": "8fc7405a90a3992a41368e1ea78a24d18c2c15ab1aee2780c1866b6ee0cb75a4",
+    "app.js": "6cf542381bb5d7b16092278a4403cb31d889acf4b7e6039ab94bf25d181bcb03",
     "data/distribution.json": "050b62625dcc240ca77125438bc5db1aa93e08d2fdf3df1b8601e5004d6dfca8",
     "data/execution.json": "62f18616eff21cb9cc10944e76a8b5b549dbe5a5f697bdcdcf792c96638faa5d",
     "data/files.json": "2df193ab6ccf578380482493ff42e5850e8fb51f1f7e06716c6fda4d85ad902a",
@@ -93,8 +92,9 @@
     "files/trades.csv": "5f31e37260a775c76ba877e6db7995d6087fbc5714e39f0a2fcd73505292dc78",
     "files/validation.csv": "ec3ecd77fd82fc75f9b0b35a5566970e88f7bcf0fa2d59db6d1c78f684d01492",
     "files/validation.json": "920982fda6845d34c207b80709cef777079ed3836381a0f1d48cde6435208435",
-    "index.html": "f53a51c766f532ae311e93cfae1f367873d49a9770556e7c2ad10e4b0529093c",
+    "index.html": "787fb02e001cb681c9c8405f0cc8796206b0bbf64aa57926e6052914798949ef",
     "staticwebapp.config.json": "ca0c9940598b3615846543f005ab2b7a8319e002e7fd4938e9c4391506882be4",
-    "app.1cc92b8341cac834.js": "1cc92b8341cac83457d98fcdf0b0e506524b4c8e9ddd99edf8ea20cd98a10d0e"
+    "app.6cf542381bb5d7b1.js": "6cf542381bb5d7b16092278a4403cb31d889acf4b7e6039ab94bf25d181bcb03",
+    "app.8fc7405a90a3992a.css": "8fc7405a90a3992a41368e1ea78a24d18c2c15ab1aee2780c1866b6ee0cb75a4"
   }
 }
