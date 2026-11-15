@@ -1,10 +1,10 @@
 {
   "run_id": "20261018T022603497994Z_standard_202310_202610",
   "public_access": true,
-  "client_version": "dad75e0eae25038a",
-  "built_at": "2026-11-14T22:23:55.156441+00:00",
-  "file_count": 54,
-  "total_bytes": 78007629,
+  "client_version": "094f5e097def8150",
+  "built_at": "2026-11-15T02:12:14.486916+00:00",
+  "file_count": 57,
+  "total_bytes": 78033937,
   "input_files": {
     "securities.csv": {
       "sha256": "19262c7056d039237e340116a4569da043771fee03b3f30c031101ba02c635d0",
@@ -42,7 +42,10 @@
   "net_cagr": 0.17263929022033442,
   "csv_export_reconciled": true,
   "file_sha256": {
-    "app.css": "8fc7405a90a3992a41368e1ea78a24d18c2c15ab1aee2780c1866b6ee0cb75a4",
+    "app.6cf542381bb5d7b1.js": "6cf542381bb5d7b16092278a4403cb31d889acf4b7e6039ab94bf25d181bcb03",
+    "app.8fc7405a90a3992a.css": "8fc7405a90a3992a41368e1ea78a24d18c2c15ab1aee2780c1866b6ee0cb75a4",
+    "app.b5ada6a9e0b6e43e.css": "b5ada6a9e0b6e43e62ac70f2e3ab4a5da6b3c319ff78eff6ebec1e7f63eea636",
+    "app.css": "b5ada6a9e0b6e43e62ac70f2e3ab4a5da6b3c319ff78eff6ebec1e7f63eea636",
     "app.js": "6cf542381bb5d7b16092278a4403cb31d889acf4b7e6039ab94bf25d181bcb03",
     "data/distribution.json": "050b62625dcc240ca77125438bc5db1aa93e08d2fdf3df1b8601e5004d6dfca8",
     "data/execution.json": "62f18616eff21cb9cc10944e76a8b5b549dbe5a5f697bdcdcf792c96638faa5d",
@@ -92,9 +95,13 @@
     "files/trades.csv": "5f31e37260a775c76ba877e6db7995d6087fbc5714e39f0a2fcd73505292dc78",
     "files/validation.csv": "ec3ecd77fd82fc75f9b0b35a5566970e88f7bcf0fa2d59db6d1c78f684d01492",
     "files/validation.json": "920982fda6845d34c207b80709cef777079ed3836381a0f1d48cde6435208435",
-    "index.html": "787fb02e001cb681c9c8405f0cc8796206b0bbf64aa57926e6052914798949ef",
+    "index.html": "39b3fe6beb97dd0f2c5fa28573edccb95318ee335ec8820b6d57543fd04c33a9",
     "staticwebapp.config.json": "ca0c9940598b3615846543f005ab2b7a8319e002e7fd4938e9c4391506882be4",
-    "app.6cf542381bb5d7b1.js": "6cf542381bb5d7b16092278a4403cb31d889acf4b7e6039ab94bf25d181bcb03",
-    "app.8fc7405a90a3992a.css": "8fc7405a90a3992a41368e1ea78a24d18c2c15ab1aee2780c1866b6ee0cb75a4"
+    "wealthryse_logo.99e61c71df81c638.jpg": "99e61c71df81c638373dcf67b7ff6607ee9d1fd63dbf2d098e3f150cf5ed3768",
+    "wealthryse_logo.jpg": "99e61c71df81c638373dcf67b7ff6607ee9d1fd63dbf2d098e3f150cf5ed3768"
+  },
+  "branding": {
+    "company_name": "WealthRyse Holdings Limited",
+    "logo_sha256": "99e61c71df81c638373dcf67b7ff6607ee9d1fd63dbf2d098e3f150cf5ed3768"
   }
 }
